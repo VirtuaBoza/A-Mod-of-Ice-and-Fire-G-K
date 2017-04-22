@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "A Mod of Ice and Fire", "A Song of Ice and Fire\A Mod of Ice and Fire.civ5proj", "{F699716B-0F3D-4E45-B137-038F73F38294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F699716B-0F3D-4E45-B137-038F73F38294}.Default|x86.ActiveCfg = Default|x86
+		{F699716B-0F3D-4E45-B137-038F73F38294}.Default|x86.Build.0 = Default|x86
+		{F699716B-0F3D-4E45-B137-038F73F38294}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{F699716B-0F3D-4E45-B137-038F73F38294}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{F699716B-0F3D-4E45-B137-038F73F38294}.Package Only|x86.ActiveCfg = Package Only|x86
+		{F699716B-0F3D-4E45-B137-038F73F38294}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

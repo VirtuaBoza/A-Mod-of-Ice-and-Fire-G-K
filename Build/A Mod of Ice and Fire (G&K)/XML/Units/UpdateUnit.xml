@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/8/2013 11:55:19 AM -->
+<GameData>
+	<UnitClasses>
+		<Update>
+			<Where Type="UNITCLASS_CHARIOT_ARCHER"/>
+			<Set Description="TXT_KEY_UNIT_HORSE_ARCHER" DefaultUnit="UNIT_HORSE_ARCHER"/>
+		</Update>
+	</UnitClasses>
+	<Units>
+		<Update>
+			<Where Type="UNIT_GALLEASS"/>
+			<Set UnitArtInfo="ART_DEF_UNIT_LONGBOW_SHIP"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GALLEASS"/>
+			<Set IconAtlas="ADRAGON_UNIT_ATLAS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GALLEASS"/>
+			<Set PortraitIndex="4"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GALLEASS"/>
+			<Set UnitFlagAtlas="UNIT_FLAG_ATLAS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GALLEASS"/>
+			<Set UnitFlagIconOffset="42"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CARAVEL"/>
+			<Set UnitArtInfo="ART_DEF_UNIT_FLEET"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CARAVEL"/>
+			<Set UnitFlagAtlas="EXPANSION_UNIT_FLAG_ATLAS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CARAVEL"/>
+			<Set UnitFlagIconOffset="14"/>
+		</Update>
+		<!--<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set Description="TXT_KEY_UNIT_HORSE_ARCHER"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set Civilopedia="TXT_KEY_CIV5_HORSE_ARCHER_TEXT"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set Strategy="TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set Help="TXT_KEY_UNIT_HELP_HORSE_ARCHER"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set UnitArtInfo="ART_DEF_UNIT_U_HUNS_HORSE_ARCHER"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set UnitFlagAtlas="ADLC02_UNIT_FLAG_ATLAS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set UnitFlagIconOffset="0"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set IconAtlas="EXPANSION_UNIT_ATLAS_1"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set PortraitIndex="7"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHARIOT_ARCHER"/>
+			<Set MoveRate="QUADRUPED"/>
+		</Update>-->
+		<!--<Update>
+			<Where Type="UNIT_HUN_HORSE_ARCHER"/>
+			<Set Description="TXT_KEY_UNIT_HORSE_ARCHER"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_HUN_HORSE_ARCHER"/>
+			<Set Civilopedia="TXT_KEY_CIV5_HORSE_ARCHER_TEXT"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_HUN_HORSE_ARCHER"/>
+			<Set Strategy="TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_HUN_HORSE_ARCHER"/>
+			<Set Help="TXT_KEY_UNIT_HELP_HORSE_ARCHER"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_HUN_HORSE_ARCHER"/>
+			<Set UnitFlagAtlas="ADLC02_UNIT_FLAG_ATLAS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_HUN_HORSE_ARCHER"/>
+			<Set UnitFlagIconOffset="0"/>
+		</Update>-->
+	</Units>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_GALLEASS" PromotionType="PROMOTION_OCEAN_IMPASSABLE"/>
+	</Unit_FreePromotions>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_TULLY_POLDER</BuildType>
+		</Row>
+	</Unit_Builds>
+</GameData>

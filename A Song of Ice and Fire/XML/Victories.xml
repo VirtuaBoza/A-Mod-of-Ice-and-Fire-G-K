@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/6/2013 7:58:22 PM -->
+<GameData>
+	<Victories>
+		<Delete type="VICTORY_SPACE_RACE"/>
+		<Delete type="VICTORY_DIPLOMATIC"/>
+	</Victories>
+</GameData>

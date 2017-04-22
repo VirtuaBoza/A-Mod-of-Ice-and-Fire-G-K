@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fa0163c0-05ad-4489-9c13-23e68d0aebcc" version="4">
+  <Properties>
+    <Name>A Mod of Ice and Fire (G&amp;K)</Name>
+    <Stability>Beta</Stability>
+    <Teaser>This is a mod based on the book series by George R.R. Martin, A Song of Ice and Fire, and the HBO show Game of Thrones. Enjoy!</Teaser>
+    <Description>This is a mod based on the book series by George R.R. Martin, A Song of Ice and Fire, and the HBO show Game of Thrones. This mod requires the Gods and Kings Expansion. 
+
+Features include: 
+ 
+- Custom maps with start position scenarios:
+Westeros
+The Known World
+
+- Civs and Leaders: 
+The Stormlands - Renly Baratheon 
+Dothraki Khalasar - Drogo 
+The Iron Islands - Balon Greyjoy 
+The Westerlands - Tywin Lanniser 
+The Crownlands - Stannis Baratheon 
+The North - Robb Stark 
+House Targaryen - Daenerys Stormborn 
+The Reach - Mace Tyrell 
+Dorne - Doran Martell 
+The Riverlands - Edmure Tully 
+Free Folk - Mance Rayder
+The Vale - Petyr Baelish
+
+- Every Civ has a unique trait, special units/buildings, and city names appropriate to their house. 
+
+- Religions: 
+The Seven 
+The Old Gods 
+R'hllor 
+The Drowned God 
+The Great Stallion 
+The Many-Faced God 
+
+- Great People and Spy Names come from characters in the series, techs end in the Renaissance Era, and other nice features!</Description>
+    <Authors>VirtuaBoza</Authors>
+    <SpecialThanks>AvengingRage &amp; Luir</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>https://www.facebook.com/AModOfIceAndFire#</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="86A095F2F9E1852F01CE1C8DF1D2FE47" import="1">Art/CivSymbolAtlasLegends/ACivSymbolAtlasLegends128.dds</File>
+    <File md5="035F745A80679D52AE633ED8CC3A2644" import="1">Art/CivSymbolAtlasLegends/ACivSymbolAtlasLegends16.dds</File>
+    <File md5="5057A298E4EEE143FC3DFEEC9186F93F" import="1">Art/CivSymbolAtlasLegends/ACivSymbolAtlasLegends24.dds</File>
+    <File md5="52F8722CCF19357F8A9B128678470865" import="1">Art/CivSymbolAtlasLegends/ACivSymbolAtlasLegends32.dds</File>
+    <File md5="F8F12F398F302B3699A52DC0B1F89D16" import="1">Art/CivSymbolAtlasLegends/ACivSymbolAtlasLegends48.dds</File>
+    <File md5="DD282589A761796DB70301658F515201" import="1">Art/CivSymbolAtlasLegends/ACivSymbolAtlasLegends64.dds</File>
+    <File md5="5FCCE6EFBDFFEAC0334DE85499B973CA" import="1">Art/CivSymbolsColorLegends/ACivSymbolsColorLegends128.dds</File>
+    <File md5="D2BC4BAB3620CC11BC4C787C09627E1E" import="1">Art/CivSymbolsColorLegends/ACivSymbolsColorLegends256.dds</File>
+    <File md5="07555E3376B5134C8CE0591175F2F756" import="1">Art/CivSymbolsColorLegends/ACivSymbolsColorLegends32.dds</File>
+    <File md5="5D8051BF98F04B0099950AA2A72181C4" import="1">Art/CivSymbolsColorLegends/ACivSymbolsColorLegends45.dds</File>
+    <File md5="F530D5F638C0CBB5CC09AFF345EDBCAA" import="1">Art/CivSymbolsColorLegends/ACivSymbolsColorLegends64.dds</File>
+    <File md5="3663BE953F8E8208EA4A8FF9A5B3D959" import="1">Art/CivSymbolsColorLegends/ACivSymbolsColorLegends80.dds</File>
+    <File md5="5122FCF0140E57146F405C3247053FDA" import="1">Art/DOMs and Scenes/Balon.dds</File>
+    <File md5="E7403D743E345E5E632751892BE08945" import="1">Art/DOMs and Scenes/Daenerys.dds</File>
+    <File md5="078E59775DE9630E0738539C308B4258" import="1">Art/DOMs and Scenes/DOM_Balon1.dds</File>
+    <File md5="2D388B013FA8D7BFF9A0651B5DE0520C" import="1">Art/DOMs and Scenes/DOM_Daenerys1.dds</File>
+    <File md5="16DFD2A3A6FDE30E395FD7504D9C6DD1" import="1">Art/DOMs and Scenes/DOM_Drogo1.dds</File>
+    <File md5="FB5041E7CC94B64222699DF692B2ECD7" import="1">Art/DOMs and Scenes/DOM_Edmure1.dds</File>
+    <File md5="79CD953012D83ED13C9BF0296714737E" import="1">Art/DOMs and Scenes/DOM_Littlefinger.dds</File>
+    <File md5="47B5A87B8BA77EA42563D01A1E140B57" import="1">Art/DOMs and Scenes/DOM_Mance.dds</File>
+    <File md5="24763C9E001F25E35CA399CB79788B6E" import="1">Art/DOMs and Scenes/DOM_Martell1.dds</File>
+    <File md5="B091F322F30339520BF2F56B96FC1719" import="1">Art/DOMs and Scenes/DOM_Olenna.dds</File>
+    <File md5="DDAE393E6B23E23C00C5E4FE8BE54EFF" import="1">Art/DOMs and Scenes/DOM_Renly1.dds</File>
+    <File md5="DB8B9B26E5C24F88FE5C105F5F7AB6B9" import="1">Art/DOMs and Scenes/DOM_Robb1.dds</File>
+    <File md5="85A43C945F2883AC06050DC18687CFCB" import="1">Art/DOMs and Scenes/DOM_Stannis1.dds</File>
+    <File md5="A75D397599094E768A2E9746793189B1" import="1">Art/DOMs and Scenes/DOM_Tyrell1.dds</File>
+    <File md5="31D1D0EFE9E1C4707EC6CE48DC7BE2BF" import="1">Art/DOMs and Scenes/DOM_Tywin1.dds</File>
+    <File md5="9189E4D605FC189488CF9D1C47553BAD" import="1">Art/DOMs and Scenes/Drogo.dds</File>
+    <File md5="40369587A5EA731CC2174E38BB4E872E" import="1">Art/DOMs and Scenes/Edmure.dds</File>
+    <File md5="552B1F594D9EA18E9CC5C349DBCAD78D" import="1">Art/DOMs and Scenes/Littlefinger.dds</File>
+    <File md5="98A6FC7402F5AC41D070AF52443325B4" import="1">Art/DOMs and Scenes/Mance.dds</File>
+    <File md5="C006C2352AA00B821AD1B838A483ADB4" import="1">Art/DOMs and Scenes/Martell.dds</File>
+    <File md5="B0B2E6C17A26DAA1303468E1FABF917A" import="1">Art/DOMs and Scenes/Olenna.dds</File>
+    <File md5="6F7722EC77CAFF4254335BBCA50FC53B" import="1">Art/DOMs and Scenes/Renly.dds</File>
+    <File md5="4D60C1F2781074E504CFAB878C493B9C" import="1">Art/DOMs and Scenes/Robb.dds</File>
+    <File md5="FB52FE74F539BDA74780A49237CF1D50" import="1">Art/DOMs and Scenes/Stannis.dds</File>
+    <File md5="D7D3A7794D1C3EEFC58B26E4A7175E00" import="1">Art/DOMs and Scenes/Tyrell.dds</File>
+    <File md5="24437876E75E633D299FA5CC32FAFA7C" import="1">Art/DOMs and Scenes/Tywin.dds</File>
+    <File md5="B6BDC0BD6E904BDC99DB3F0051FDCAFA" import="1">Art/DragonWolfArt/colossal_drake.fxsxml</File>
+    <File md5="A82036E8D9EC23D634F53C1557476A9E" import="1">Art/DragonWolfArt/colossal_drake.gr2</File>
+    <File md5="A46CF6E72128F2C2D2F30D88A3B4B2EE" import="1">Art/DragonWolfArt/colossal_drake.dds</File>
+    <File md5="9E30B4EBDFDBE0DF8998AE2AAE8B09D4" import="1">Art/DragonWolfArt/colossal_drake_die1.gr2</File>
+    <File md5="2526569A6625D5CDA3D7CC09F05DD281" import="1">Art/DragonWolfArt/colossal_drake_fidget1.gr2</File>
+    <File md5="9130F555F24A2D9FAFBC3739D48FAC07" import="1">Art/DragonWolfArt/colossal_drake_fort1.gr2</File>
+    <File md5="55ED7197662BD023C9D0DEDAE10711D9" import="1">Art/DragonWolfArt/colossal_drake_fort_idle1.gr2</File>
+    <File md5="E0BC6E5452DA346A551CEE3F3F0A11D0" import="1">Art/DragonWolfArt/colossal_drake_hurt1.gr2</File>
+    <File md5="B9E09AE884408629B6EADC4E9CC0D8F7" import="1">Art/DragonWolfArt/colossal_drake_idle.gr2</File>
+    <File md5="5AF127D8C5CA80241B2F399A072B6B53" import="1">Art/DragonWolfArt/colossal_drake_run.gr2</File>
+    <File md5="08C01F230141780C1EC48FB69A0B8BB6" import="1">Art/DragonWolfArt/colossal_drake_strike1.gr2</File>
+    <File md5="D426B03FD78688F77B59B63CF8A20083" import="1">Art/DragonWolfArt/colossal_drake_strike2.gr2</File>
+    <File md5="D645FF3BEBF510CD9AA8A60E48DC57D0" import="1">Art/DragonWolfArt/DragonUnitFlagAtlas32.dds</File>
+    <File md5="B9C4CD6E5A06B109A9824295C98869BE" import="1">Art/DragonWolfArt/EDragonUnitFlagAtlas32.dds</File>
+    <File md5="6F4DAF605C882C63B5EAEDB9CD03B1CF" import="1">Art/DragonWolfArt/MDragonUnitFlagAtlas32.dds</File>
+    <File md5="B1B45679AF67F67650C9A26E3421C31E" import="1">Art/DragonWolfArt/SDragonUnitAtlas128.dds</File>
+    <File md5="42E925DA6B07DDF4834C9F356AE2B933" import="1">Art/DragonWolfArt/SDragonUnitAtlas256.dds</File>
+    <File md5="91649E329C37D1B1DA79725A3098CB71" import="1">Art/DragonWolfArt/SDragonUnitAtlas32.dds</File>
+    <File md5="33F02FD082293C1E4BA038BEB735091A" import="1">Art/DragonWolfArt/SDragonUnitAtlas45.dds</File>
+    <File md5="E9373EFCA7CCD4A47717F8BEB419A808" import="1">Art/DragonWolfArt/SDragonUnitAtlas64.dds</File>
+    <File md5="31BEC6D6E60E84D252BCC4D348262DAE" import="1">Art/DragonWolfArt/SDragonUnitAtlas80.dds</File>
+    <File md5="34B3E451DCBBA86F7ED263247E1D206A" import="1">Art/DragonWolfArt/wolf.dds</File>
+    <File md5="61E522A943F1D63F07D16F7E1B802AC4" import="1">Art/DragonWolfArt/wolf.fxsxml</File>
+    <File md5="D737A52F2DBDAB803B93CF77F353A194" import="1">Art/DragonWolfArt/Wolf.gr2</File>
+    <File md5="CDC47E46664E763BAC4645E550FEF534" import="1">Art/DragonWolfArt/wolf_md_diea.gr2</File>
+    <File md5="49AD53D553AA64A5990B1023B6F2D2E2" import="1">Art/DragonWolfArt/wolf_md_diea_fade.gr2</File>
+    <File md5="3C35DFD8B414440F067C672772AE2DD0" import="1">Art/DragonWolfArt/wolf_md_fidget.gr2</File>
+    <File md5="C463B57674F919828F4743A1451CA342" import="1">Art/DragonWolfArt/wolf_md_fortifya.gr2</File>
+    <File md5="5D2D72E7D64C3C48253868220681D912" import="1">Art/DragonWolfArt/wolf_md_fortifya_idle.gr2</File>
+    <File md5="6D6A5FE2C4DFCF9BE2BD606CDE50893C" import="1">Art/DragonWolfArt/wolf_md_heal.gr2</File>
+    <File md5="26B094727B5F65AA61E27F42FE50892D" import="1">Art/DragonWolfArt/wolf_md_hurta.gr2</File>
+    <File md5="A1CDD2282BA33ED5BAFBAADE12F4BF3C" import="1">Art/DragonWolfArt/wolf_md_hurtb.gr2</File>
+    <File md5="057C7DA4AF98FA96F56B6B444D85EFC5" import="1">Art/DragonWolfArt/wolf_md_idle.gr2</File>
+    <File md5="D920EF1AAEDCC79B5ABAC0D0B8FAF3A8" import="1">Art/DragonWolfArt/wolf_md_run.gr2</File>
+    <File md5="B3362E5E85E4F37EBF71DEE159290EC9" import="1">Art/DragonWolfArt/wolf_md_strikea.gr2</File>
+    <File md5="C5AB879E9407B2784D80FA603EC28B5E" import="1">Art/DragonWolfArt/wolf_md_strikeb.gr2</File>
+    <File md5="0CBC6FF138EE42E9F50268550F046C83" import="1">Art/DragonWolfArt/WolvesUnitAtlas128.dds</File>
+    <File md5="39EC451D8E8731AB3871E4436647AE0F" import="1">Art/DragonWolfArt/WolvesUnitAtlas256.dds</File>
+    <File md5="C2B349515FCD2BEF64185F529B6A2EF3" import="1">Art/DragonWolfArt/WolvesUnitAtlas32.dds</File>
+    <File md5="41D2F83730D3F739F4B0FD0E0D721797" import="1">Art/DragonWolfArt/WolvesUnitAtlas45.dds</File>
+    <File md5="361B494B3D83008A053AA9667A99F7EE" import="1">Art/DragonWolfArt/WolvesUnitAtlas64.dds</File>
+    <File md5="ACAF082CF058FB66042284BD336E79FB" import="1">Art/DragonWolfArt/WolvesUnitAtlas80.dds</File>
+    <File md5="670A2B118EF54B8CD9DD1E859F4A39E6" import="1">Art/DragonWolfArt/WolvesUnitFlagAtlas32.dds</File>
+    <File md5="E1A539F200330DAAC7AE45E433D5A0FA" import="1">Art/DragonWolfArt/YDragonUnitFlagAtlas32.dds</File>
+    <File md5="63FE892C0A3A36213814107541176C89" import="1">Art/Farms/Barley/barley_diff.dds</File>
+    <File md5="90A1835F24421B2568B264282E182895" import="1">Art/Farms/Barley/barley_sref.dds</File>
+    <File md5="2EEC248E1D46F5CFEA2280686B4AE877" import="1">Art/Farms/Barley/crop_ground_barley_d.dds</File>
+    <File md5="9285C31AB78D5892FFB82652F3C6D09C" import="1">Art/Farms/Barley/crop_ground_barley_h.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Farms/Barley/fx_triggers_pl_plantation_mid_barley.ftsxml</File>
+    <File md5="E589AFA76838B94CA7D6A35EF9FAC3E1" import="1">Art/Farms/Barley/hb_plantation_mid_barley.fxsxml</File>
+    <File md5="C01C1A856BBCA8FA2249B4F8503A5903" import="1">Art/Farms/Barley/hb_plantation_mid_barley.gr2</File>
+    <File md5="DA2AA289147C1559B17ED500F209E8DD" import="1">Art/Farms/Barley/plantation_mid_barley.fxsxml</File>
+    <File md5="FCF370096E93AD8FE5DB29C10E7487FA" import="1">Art/Farms/Barley/plantation_mid_barley.gr2</File>
+    <File md5="AE0A8A8F9EC824DCADD18B927555B152" import="1">Art/Farms/Barley/pl_barley_diff.dds</File>
+    <File md5="12B50210148B09CD7611E159AA34EF6A" import="1">Art/Farms/Barley/pl_crop_ground_barley_d.dds</File>
+    <File md5="EA42A42F2CEE0EAA64C9FAAFC5B14EDC" import="1">Art/Farms/Barley/pl_plantation_mid_barley.fxsxml</File>
+    <File md5="AF3DCB8EF33ED75C7A029FC4F9E50672" import="1">Art/Farms/Barley/pl_plantation_mid_barley.gr2</File>
+    <File md5="BDB3CCB15B5E98D6660CAE9E58D78D1E" import="1">Art/Farms/Corn/plantation_mid_corn.fxsxml</File>
+    <File md5="D608CA534A1AA20B31C982B847A31F91" import="1">Art/Farms/Corn/plantation_mid_corn.gr2</File>
+    <File md5="CB2FEFC733D2E4EA1325B978FA56E9B2" import="1">Art/Farms/Corn/resource_corn_diff.dds</File>
+    <File md5="C8D92A47936A0B2B7E5947FE8F02058D" import="1">Art/Farms/Corn/resource_corn_sref.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Farms/Mango/fx_triggers_pl_plantation_mid_mango.ftsxml</File>
+    <File md5="D2608A70847DCA918B356CD82B801471" import="1">Art/Farms/Mango/mango_diff.dds</File>
+    <File md5="B27A2B6D05261F9AC58DCB266F5EBBFF" import="1">Art/Farms/Mango/mango_sref.dds</File>
+    <File md5="940456EC8B0BC747773B03945F029B0F" import="1">Art/Farms/Mango/plantation_mid_mango.fxsxml</File>
+    <File md5="953AD375F7D6F1DF92F3EF5891D50B3D" import="1">Art/Farms/Mango/plantation_mid_mango.gr2</File>
+    <File md5="96D2464E1B6FE8636F2E498C8175F897" import="1">Art/Farms/Mango/pl_mango_diff.dds</File>
+    <File md5="C03CAD88A4F452AA0B5C2A5250921CC1" import="1">Art/Farms/Mango/pl_plantation_mid_mango.fxsxml</File>
+    <File md5="8E8952A63F8A4BC34B997F9C11F061F7" import="1">Art/Farms/Mango/pl_plantation_mid_mango.gr2</File>
+    <File md5="8E3B04BBC98E39DE0AF00FA01D5AA7EA" import="1">Art/Farms/Tobacco/crop_ground_tobacco_d.dds</File>
+    <File md5="9285C31AB78D5892FFB82652F3C6D09C" import="1">Art/Farms/Tobacco/crop_ground_tobacco_h.dds</File>
+    <File md5="04AEF196387A5425CDC944A8CD9B1B4F" import="1">Art/Farms/Tobacco/hb_plantation_mid_tobacco.fxsxml</File>
+    <File md5="FF19793B18BFC0B449C79A5AF329E67A" import="1">Art/Farms/Tobacco/hb_plantation_mid_tobacco.gr2</File>
+    <File md5="C2559BB675AFA33316EC146E42003697" import="1">Art/Farms/Tobacco/plantation_mid_tobacco.fxsxml</File>
+    <File md5="522E2671C81C52B1A84B70FDC344390A" import="1">Art/Farms/Tobacco/plantation_mid_tobacco.gr2</File>
+    <File md5="F80EAC029E70CC48BC97617DDF1262B9" import="1">Art/Farms/Tobacco/tobacco_diff.dds</File>
+    <File md5="56177E4DAC7F49305B0E756AF4CC70D1" import="1">Art/Farms/Tobacco/tobacco_sref.dds</File>
+    <File md5="67B09380B102C9960DF0CFDE644949D7" import="1">Art/FontIconsLegends1.dds</File>
+    <File md5="49E330BAD27A87E778257A7A4C69AB4B" import="1">Art/LeaderPortraitsLegends/Daenerys/LeaderPortraitsDaenerys128.dds</File>
+    <File md5="AB84B0AD85BCE928A3162839BAE1DC07" import="1">Art/LeaderPortraitsLegends/Daenerys/LeaderPortraitsDaenerys256.dds</File>
+    <File md5="CBE9C8F9BBF3A8D1AE826C5FC6C39BA9" import="1">Art/LeaderPortraitsLegends/Daenerys/LeaderPortraitsDaenerys64.dds</File>
+    <File md5="B8142A640C5CEC54C85C5F34F03E0369" import="1">Art/LeaderPortraitsLegends/Dothraki/LeaderPortraitsDrogo128.dds</File>
+    <File md5="312028C4775C9C93FBBF80ADA67EFE44" import="1">Art/LeaderPortraitsLegends/Dothraki/LeaderPortraitsDrogo256.dds</File>
+    <File md5="76A54F1749D51A71314AAD18018F6F76" import="1">Art/LeaderPortraitsLegends/Dothraki/LeaderPortraitsDrogo64.dds</File>
+    <File md5="B3EDD89B7D5A93212AEA35EF11836E4B" import="1">Art/LeaderPortraitsLegends/Edmure/LeaderPortraitsEdmure128.dds</File>
+    <File md5="F448A650487B5581CA8B32D5F16DDA8C" import="1">Art/LeaderPortraitsLegends/Edmure/LeaderPortraitsEdmure256.dds</File>
+    <File md5="1E8CEB8C39BE768AB6E89EAD47811EE4" import="1">Art/LeaderPortraitsLegends/Edmure/LeaderPortraitsEdmure64.dds</File>
+    <File md5="3DA09668AFFB153B65CC3EBA28FC56D8" import="1">Art/LeaderPortraitsLegends/Greyjoy/LeaderPortraitsBalon128.dds</File>
+    <File md5="26D3C9EA592096EAA02518A96FABA793" import="1">Art/LeaderPortraitsLegends/Greyjoy/LeaderPortraitsBalon256.dds</File>
+    <File md5="47DAA0382A1B480F4D5F7B3A774DF65B" import="1">Art/LeaderPortraitsLegends/Greyjoy/LeaderPortraitsBalon64.dds</File>
+    <File md5="2858C7EC858E0E84C1EB23A891B749F1" import="1">Art/LeaderPortraitsLegends/Lannister/LeaderPortraitsTywin128.dds</File>
+    <File md5="84A39C40CD351366D074E5346EBB6E5B" import="1">Art/LeaderPortraitsLegends/Lannister/LeaderPortraitsTywin256.dds</File>
+    <File md5="E0A448087DC6EFAE3C3F4001D4837A31" import="1">Art/LeaderPortraitsLegends/Lannister/LeaderPortraitsTywin64.dds</File>
+    <File md5="5EE00E882EBBAADA751D24775DFCD3B2" import="1">Art/LeaderPortraitsLegends/Littlefinger/LeaderPortraitsBaelish128.dds</File>
+    <File md5="C2890ED4A683E44E6116B602D2527837" import="1">Art/LeaderPortraitsLegends/Littlefinger/LeaderPortraitsBaelish256.dds</File>
+    <File md5="A584B85A7205739287C75F9052425BD7" import="1">Art/LeaderPortraitsLegends/Littlefinger/LeaderPortraitsBaelish64.dds</File>
+    <File md5="65F4EE16B24E6B3DBAFAB58679CCA1F6" import="1">Art/LeaderPortraitsLegends/Mance/LeaderPortraitsMance128.dds</File>
+    <File md5="DB35ECC27B53BEE512EE7273E94BF9B5" import="1">Art/LeaderPortraitsLegends/Mance/LeaderPortraitsMance256.dds</File>
+    <File md5="5BDC31D91B588484FA896F8C9994DEE7" import="1">Art/LeaderPortraitsLegends/Mance/LeaderPortraitsMance64.dds</File>
+    <File md5="14EE7A4DCD037100D2CF8D76CD330DF2" import="1">Art/LeaderPortraitsLegends/Martell/DoranPortrait128.dds</File>
+    <File md5="59CD21E62A762C350A1C90C8905F0252" import="1">Art/LeaderPortraitsLegends/Martell/DoranPortrait256.dds</File>
+    <File md5="57C1A8FB37B044C12C679E5DE09D29E9" import="1">Art/LeaderPortraitsLegends/Martell/DoranPortrait64.dds</File>
+    <File md5="69E459F0F4DACE2F34CB9545F57EFF78" import="1">Art/LeaderPortraitsLegends/Martell/LeaderPortraitsMartell128.dds</File>
+    <File md5="CF0DE40A3E28155656F6852AEC7400E0" import="1">Art/LeaderPortraitsLegends/Martell/LeaderPortraitsMartell256.dds</File>
+    <File md5="8487BC2C86BF7E7EAB3D8E5AB43BB761" import="1">Art/LeaderPortraitsLegends/Martell/LeaderPortraitsMartell64.dds</File>
+    <File md5="9B2494AD6F6A4C01FDE986E403B440D2" import="1">Art/LeaderPortraitsLegends/Olenna/OlennaPortrait128.dds</File>
+    <File md5="E9B0C27C4D244F2447AA43AAF768275F" import="1">Art/LeaderPortraitsLegends/Olenna/OlennaPortrait256.dds</File>
+    <File md5="CA61C24378BFFF8157642049F3667227" import="1">Art/LeaderPortraitsLegends/Olenna/OlennaPortrait64.dds</File>
+    <File md5="F43B513BD7C1AE34E52A6D85F5CC1FB4" import="1">Art/LeaderPortraitsLegends/Renly/LeaderPortraitsRenly128.dds</File>
+    <File md5="42C8C5165715546075BF4237D17B3408" import="1">Art/LeaderPortraitsLegends/Renly/LeaderPortraitsRenly256.dds</File>
+    <File md5="20D9244AD3618B966D09670CB98E36B1" import="1">Art/LeaderPortraitsLegends/Renly/LeaderPortraitsRenly64.dds</File>
+    <File md5="7153EECF59D70BC1B78691A65ED4C7F0" import="1">Art/LeaderPortraitsLegends/Robb/LeaderPortraitsRobb128.dds</File>
+    <File md5="143319AD641631975F5191797616820B" import="1">Art/LeaderPortraitsLegends/Robb/LeaderPortraitsRobb256.dds</File>
+    <File md5="BBDCF8BE4F09324C42914DD72D2CA87E" import="1">Art/LeaderPortraitsLegends/Robb/LeaderPortraitsRobb64.dds</File>
+    <File md5="E7459DFEF877DBD6C286437E74F9EC5D" import="1">Art/LeaderPortraitsLegends/Stannis/LeaderPortraitsStannis128.dds</File>
+    <File md5="A0EFB941AA5EB52CE2FF6CB7CBB3A854" import="1">Art/LeaderPortraitsLegends/Stannis/LeaderPortraitsStannis256.dds</File>
+    <File md5="8646700C27A71325732D29ADED44965F" import="1">Art/LeaderPortraitsLegends/Stannis/LeaderPortraitsStannis64.dds</File>
+    <File md5="12B1D39F7D4E03443F700E7258EF4ABF" import="1">Art/LeaderPortraitsLegends/Stark/LeaderPortraitsLegends128.dds</File>
+    <File md5="EFCFE293F0192EEF1C120E4461B719D9" import="1">Art/LeaderPortraitsLegends/Stark/LeaderPortraitsLegends256.dds</File>
+    <File md5="FB5EB799F45404B2D2E231FEDC36CB26" import="1">Art/LeaderPortraitsLegends/Stark/LeaderPortraitsLegends64.dds</File>
+    <File md5="63FCF5DA2C66B57AE37957ACDAD256BE" import="1">Art/LeaderPortraitsLegends/Tyrell/LeaderPortraitsTyrell128.dds</File>
+    <File md5="BCD4EF5AD1BFE9B56EC401E91E4A56E4" import="1">Art/LeaderPortraitsLegends/Tyrell/LeaderPortraitsTyrell256.dds</File>
+    <File md5="A6D3CEFE49B2C5A91D653E870FC2B916" import="1">Art/LeaderPortraitsLegends/Tyrell/LeaderPortraitsTyrell64.dds</File>
+    <File md5="1EC6361A794EE3B476947E60FA28C985" import="1">Art/Maps/MapBeyondTheWall.dds</File>
+    <File md5="0710F8FF12BBBB6A3B4F134875FF7354" import="1">Art/Maps/MapCasterlyRock.dds</File>
+    <File md5="3D787B06CF6EAD978DD20DD806F79E3F" import="1">Art/Maps/MapDothrakiSea.dds</File>
+    <File md5="AD979020FF34888105E2593773CA0566" import="1">Art/Maps/MapDragonstone.dds</File>
+    <File md5="C079F4584CB1F6315B15ECA3B74F5683" import="1">Art/Maps/MapEyrie.dds</File>
+    <File md5="58C5EC56A5B98406E09269561F0EB325" import="1">Art/Maps/MapHighgarden.dds</File>
+    <File md5="8F06E65671107D859B906955040520A6" import="1">Art/Maps/MapIronIslands.dds</File>
+    <File md5="FC4D7613FBEA133837E3C6C34DD6601E" import="1">Art/Maps/MapRiverrun.dds</File>
+    <File md5="D83E9A28CF40CFFFF989A60752E78857" import="1">Art/Maps/MapStormsEnd.dds</File>
+    <File md5="DF8AA421D4DD61997FA6D4C8AF9DDFE2" import="1">Art/Maps/MapSunspear.dds</File>
+    <File md5="C87DF8EE28FD782307C63465F99B082D" import="1">Art/Maps/MapValyria.dds</File>
+    <File md5="50ED6E3D767C3AA4157936ECA5566622" import="1">Art/Maps/MapWinterfell.dds</File>
+    <File md5="64A690B094E28E8F052DEF2A08D556D5" import="1">Art/OtherUnitArt/Aunitflagatlaswhite32_expansion.dds</File>
+    <File md5="77F6E907D678821CA2069D3D365AFC85" import="1">Art/OtherUnitArt/Dunitflagatlaswhite32_dlc_korea.dds</File>
+    <File md5="559BA72E036CF246F72CF102E52F2C97" import="1">Art/OtherUnitArt/Eunitflagatlaswhite32_dlc_02.dds</File>
+    <File md5="E78FC3662E8309DDA92744D7F81BBD89" import="1">Art/ReligiousSymbolsWhiteLegends/1ReligiousSymbolsWhiteLegends128.dds</File>
+    <File md5="1C45D5351642F6B9C7D0F97A27D58F49" import="1">Art/ReligiousSymbolsWhiteLegends/1ReligiousSymbolsWhiteLegends16.dds</File>
+    <File md5="DF18C9FBBDA87B674DF741EF0B365D66" import="1">Art/ReligiousSymbolsWhiteLegends/1ReligiousSymbolsWhiteLegends24.dds</File>
+    <File md5="E822A5697D706EDFF3380FCE80A380C4" import="1">Art/ReligiousSymbolsWhiteLegends/1ReligiousSymbolsWhiteLegends32.dds</File>
+    <File md5="139DCF91F4156A452B6C15777AEC1547" import="1">Art/ReligiousSymbolsWhiteLegends/1ReligiousSymbolsWhiteLegends48.dds</File>
+    <File md5="5DCE43891DD23069652AE51038C8E604" import="1">Art/ReligiousSymbolsWhiteLegends/1ReligiousSymbolsWhiteLegends64.dds</File>
+    <File md5="96C4C4BFADA81AF35A0238778F192ED8" import="1">Art/ReligiousSymbolsWhiteLegends/1ReligiousSymbolsWhiteLegends80.dds</File>
+    <File md5="E1BE6B756A2D969309C0862C1B58CDC8" import="0">Maps/TheKnownWorld1.Civ5Map</File>
+    <File md5="476BE828E17735A6EFBF49059BB866C1" import="0">Maps/WesterosIIedit4.Civ5Map</File>
+    <File md5="3DE093F3491406AD2E94CA031364D72D" import="0">SQL/ImprovementFarmReplacement.sql</File>
+    <File md5="83C4F763D996F23466A0D5AAE444C53E" import="1">UI/FrontEnd/GameSetup/GameSetupScreen.lua</File>
+    <File md5="014F116DB052219D2EFB9164E2E67167" import="1">UI/FrontEnd/GameSetup/GameSetupScreen.xml</File>
+    <File md5="8B50A5548B343D090787D9362436C802" import="1">UI/FrontEnd/GameSetup/SelectCivilization.lua</File>
+    <File md5="1014D081432D1F12ED1322ACDAB26788" import="1">UI/FrontEnd/GameSetup/SelectCivilization.xml</File>
+    <File md5="99EAF1C29D5C078A8D34F496C8EDCC50" import="1">UI/FrontEnd/GameSetup/UniqueBonuses.lua</File>
+    <File md5="5A6FC2855BD43F3ADA56BE600DFBD17B" import="1">UI/FrontEnd/LoadScreen.lua</File>
+    <File md5="6FCFEE67FB66596B9BEC29BF718EEED9" import="1">UI/FrontEnd/LoadScreen.xml</File>
+    <File md5="785E18EA0F01679673861E0551C64F36" import="1">UI/InGame/InfoTooltipInclude.lua</File>
+    <File md5="8FA93CEC7C9AFC3585251DFA20F2BB67" import="0">XML/Art/ArtDefines.xml</File>
+    <File md5="C4C5A9F1383A0F8E48A15687C7FD7276" import="0">XML/Art/PlayerColors.xml</File>
+    <File md5="F1CBDEA7B5FF7CA0C95CCEA2716D4972" import="0">XML/Buildings/Buildings.xml</File>
+    <File md5="872CC9CB33445171D70BA27F4EEAA752" import="0">XML/Buildings/DeleteWonders.xml</File>
+    <File md5="7FE1BA2403124472062AA7A8FDF90864" import="0">XML/Buildings/Improvements.xml</File>
+    <File md5="8D8FFFC3E329B9DD328FC0919D4BC2D7" import="0">XML/Buildings/UpdateBuildings.xml</File>
+    <File md5="6A3EEB9D50D8252108537769A5B09C09" import="0">XML/Civilizations/Civ_Arryn.xml</File>
+    <File md5="87263A7989BABC77C55DF0F46FD350FC" import="0">XML/Civilizations/Civ_Baratheon.xml</File>
+    <File md5="0EAE8035AFD9DA0B8811965B89FBF52C" import="0">XML/Civilizations/Civ_Dothraki.xml</File>
+    <File md5="70AD02EE84ECBD4305992E9B3F476EC7" import="0">XML/Civilizations/Civ_FreeFolk.xml</File>
+    <File md5="C07C5392743F8DB7FE30D1E99C2002D5" import="0">XML/Civilizations/Civ_Greyjoy.xml</File>
+    <File md5="3396E41B8D1AE32D3845E8490D967094" import="0">XML/Civilizations/Civ_Lannister.xml</File>
+    <File md5="9602656D7D4A1B7713517CD9511DCA86" import="0">XML/Civilizations/Civ_Martell.xml</File>
+    <File md5="778AA6A41568F7B28D8D1847B09BF935" import="0">XML/Civilizations/Civ_Stannis.xml</File>
+    <File md5="72075F7AE6CC768AD4BD1403835E81CD" import="0">XML/Civilizations/Civ_Stark.xml</File>
+    <File md5="5BA165D9488376EF28EE41FC5CA00E0E" import="0">XML/Civilizations/Civ_Targaryen.xml</File>
+    <File md5="32510699C7CDA7C1188936B4E1F0E678" import="0">XML/Civilizations/Civ_Tully.xml</File>
+    <File md5="5AA7660FA54176E41D698D2B546E9135" import="0">XML/Civilizations/Civ_Tyrell.xml</File>
+    <File md5="FCEC3237CC0C59BE6886B2714CF49A5E" import="0">XML/Civilizations/DeleteCivs.xml</File>
+    <File md5="B42E370C01865CE91FA267E7A13E2B8E" import="0">XML/Civilizations/Sovereignties.xml</File>
+    <File md5="6D8518E472F6EF6409B3E7BA8F189202" import="0">XML/Civilizations/Traits.xml</File>
+    <File md5="022C0F905B0FBBAC90C2B71F1BC1EA7D" import="0">XML/DragonWolf/Colossal_Dragon.sql</File>
+    <File md5="BFD405E544552323943A5BD7900E5DE8" import="0">XML/DragonWolf/DragonUnitIcons.xml</File>
+    <File md5="DEAAF481A300F037E21E2772005E6845" import="0">XML/DragonWolf/Fleet.sql</File>
+    <File md5="AD25CB118E9565AC07ED70564C9A680A" import="0">XML/DragonWolf/Longbow_Ship.sql</File>
+    <File md5="7E4884197D016ED466D936BA6B71464D" import="0">XML/DragonWolf/Wolf.sql</File>
+    <File md5="BBC4ADD35FF02DA2599E38C8F160D7D0" import="0">XML/GameInfo/IconTextureAtlases.xml</File>
+    <File md5="B73D28DDDBD664DCC5966EFA8A2ED76A" import="1">XML/Leaders/Balon_Scene.xml</File>
+    <File md5="FE080D82B95719F8F9FB889B25B6DA86" import="1">XML/Leaders/Daenerys_Scene.xml</File>
+    <File md5="9AB486D2FE564118961D454559170408" import="1">XML/Leaders/Drogo_Scene.xml</File>
+    <File md5="88B54FB1C9B6052FAD4260C8A9FA3A98" import="1">XML/Leaders/Edmure_Scene.xml</File>
+    <File md5="EDE5FAE6CB8812B7D14A3BABC73805B2" import="0">XML/Leaders/Leader_Balon.xml</File>
+    <File md5="D499E3B175E881AE9870AF1B55990DB8" import="0">XML/Leaders/Leader_Daenerys.xml</File>
+    <File md5="6D2FDEB0DBAE11E79BB9BB732BF58323" import="0">XML/Leaders/Leader_Doran.xml</File>
+    <File md5="3DC85F509CF41EB1BBC69F7ACD810E8D" import="0">XML/Leaders/Leader_Drogo.xml</File>
+    <File md5="28A605E4293A046C0174F0AB9C94490A" import="0">XML/Leaders/Leader_Edmure.xml</File>
+    <File md5="C7CA680BAB9B4017C14A222B6BB2BF4A" import="0">XML/Leaders/Leader_Littlefinger.xml</File>
+    <File md5="F0860F0233C0715267A46ABE270C3608" import="0">XML/Leaders/Leader_Mace.xml</File>
+    <File md5="2A95B65DE59955C443E08F8180F344E3" import="0">XML/Leaders/Leader_Mance.xml</File>
+    <File md5="F857FFCE0324C902D2E20E8058AD9880" import="0">XML/Leaders/Leader_Robb.xml</File>
+    <File md5="51E444F9895F6D703AC2B671BE07CBA9" import="0">XML/Leaders/Leader_Renly.xml</File>
+    <File md5="3EF288AE4B682D3C9F47B8DBFF1BE30C" import="0">XML/Leaders/Leader_Stannis.xml</File>
+    <File md5="D85B736290679984A96C9BC72F59B30C" import="0">XML/Leaders/Leader_Tywin.xml</File>
+    <File md5="7B1CC6D22BC7DE59A1BEEA3EFD3279B0" import="1">XML/Leaders/Littlefinger_Scene.xml</File>
+    <File md5="3E23B5F3124560111C1ABEA8CF905821" import="1">XML/Leaders/Mance_Scene.xml</File>
+    <File md5="C4382EE651049B9F9B1378DD29CAE2FD" import="1">XML/Leaders/Martell_Scene.xml</File>
+    <File md5="2A4FF40154606668135AC7CE75849C2A" import="1">XML/Leaders/Robb_Scene.xml</File>
+    <File md5="65933CDE2AC6CAF5C9C0F796D567A92B" import="1">XML/Leaders/Renly_Scene.xml</File>
+    <File md5="5A076445453E37413F4BE2A9ECD5F2B1" import="1">XML/Leaders/Stannis_Scene.xml</File>
+    <File md5="FEF4A1C53FBD365542A7ED562073C05B" import="1">XML/Leaders/Tyrell_Scene.xml</File>
+    <File md5="B46CAB2DE4C245132E9E96CE5313878B" import="1">XML/Leaders/Tywin_Scene.xml</File>
+    <File md5="64E46B734DC346F3AB21AA8622FBDABE" import="0">XML/NewText/Dialog_Drogo.xml</File>
+    <File md5="5E56D09A20B99D60C0E96E27DE1EC132" import="0">XML/NewText/GOTText.xml</File>
+    <File md5="4806C06CF29788FEC7CA49F7F3674CF5" import="0">XML/NewText/UpdateGreatPeople.xml</File>
+    <File md5="80095EBF9B18E51BF306E2423C5FC5ED" import="0">XML/NewText/TextUpdates.xml</File>
+    <File md5="6BFACA7711207839E4A10CA7EF0DAA26" import="0">XML/Units/UnitCombatInfos.xml</File>
+    <File md5="7C20670137950F709F4850EF1E5091BE" import="0">XML/Units/UnitPromotions.xml</File>
+    <File md5="B62DB0922A41556E6C1283E4BF14575C" import="0">XML/UpdatePolicies.xml</File>
+    <File md5="2099A921F1383214CA0071FFD4046008" import="0">XML/Religions/DeleteReligions.xml</File>
+    <File md5="C57EEAB7465ED8CB9E529DE0953FAFFB" import="0">XML/Religions/GOTReligions.xml</File>
+    <File md5="A0B720C12833462D9DA7F3E3ABF53195" import="1">XML/Religions/strangeB-fonticons.ggxml</File>
+    <File md5="BB9D262C820CB6FB629B015855D8D7A1" import="0">XML/Technology/Technologies.xml</File>
+    <File md5="298F628E8F6A2B730261F8815198C9D8" import="0">XML/Units/Units.xml</File>
+    <File md5="F2EB230BE1CD9E68727F6305C84F3E68" import="0">XML/Units/UpdateUnit.xml</File>
+    <File md5="18C61C6C49237E43CBB9C9551610943E" import="0">XML/Victories.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GameInfo/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Stark.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Religions/GOTReligions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Religions/DeleteReligions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Dothraki.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Drogo.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/PlayerColors.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Lannister.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Tywin.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technology/Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Baratheon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Renly.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/GOTText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/DeleteCivs.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Stannis.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Stannis.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Balon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Greyjoy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Targaryen.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Daenerys.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Robb.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DragonWolf/DragonUnitIcons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DragonWolf/Wolf.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Victories.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UpdatePolicies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UpdateUnit.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/DeleteWonders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/UpdateGreatPeople.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/UpdateBuildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/TextUpdates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/Dialog_Drogo.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DragonWolf/Longbow_Ship.sql</UpdateDatabase>
+      <UpdateDatabase>XML/DragonWolf/Fleet.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Tyrell.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Mace.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Martell.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Doran.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Tully.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Edmure.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Sovereignties.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_FreeFolk.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Mance.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/ArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DragonWolf/Colossal_Dragon.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitCombatInfos.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Arryn.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader_Littlefinger.xml</UpdateDatabase>
+      <UpdateDatabase>UI/FrontEnd/GameSetup/GameSetupScreen.xml</UpdateDatabase>
+      <UpdateDatabase>UI/FrontEnd/GameSetup/SelectCivilization.xml</UpdateDatabase>
+      <UpdateDatabase>UI/FrontEnd/LoadScreen.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/ImprovementFarmReplacement.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="Map" file="Maps/WesterosIIedit4.Civ5Map">
+      <Name>Westeros</Name>
+      <Description>A map of Westeros for A Mod of Ice and Fire.</Description>
+    </EntryPoint>
+    <EntryPoint type="Map" file="Maps/TheKnownWorld1.Civ5Map">
+      <Name>The Known World</Name>
+      <Description>A map of The Known World for A Mod of Ice and Fire</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/9/2013 1:51:22 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_COLOSSEUM"/>
+			<Set PortraitIndex="20" ArtDefineTag="NULL" DisplayPosition="0" ArtInfoCulturalVariation="false" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PAGODA"/>
+			<Set IconAtlas="ADRAGON_UNIT_ATLAS" PortraitIndex="6"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MOSQUE"/>
+			<Set IconAtlas="BW_ATLAS_1" PortraitIndex="53"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LIBRARY"/>
+			<Set SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_UNIVERSITY"/>
+			<Set SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
+		</Update>
+	</Buildings>
+</GameData>

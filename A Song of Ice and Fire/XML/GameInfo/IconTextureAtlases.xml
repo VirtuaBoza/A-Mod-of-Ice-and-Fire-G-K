@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/13/2012 9:21:39 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<!-- Universal Symols Color -->
+
+		<Row>
+			<Atlas>ACIV_COLOR_ATLAS_LEGENDS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ACivSymbolsColorLegends256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_COLOR_ATLAS_LEGENDS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ACivSymbolsColorLegends128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_COLOR_ATLAS_LEGENDS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ACivSymbolsColorLegends80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_COLOR_ATLAS_LEGENDS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ACivSymbolsColorLegends64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_COLOR_ATLAS_LEGENDS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ACivSymbolsColorLegends45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_COLOR_ATLAS_LEGENDS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>ACivSymbolsColorLegends32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+		<!-- Universal Symols White -->
+
+		<Row>
+			<Atlas>ACIV_ALPHA_ATLAS_LEGENDS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ACivSymbolAtlasLegends128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_ALPHA_ATLAS_LEGENDS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ACivSymbolAtlasLegends64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_ALPHA_ATLAS_LEGENDS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>ACivSymbolAtlasLegends48.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_ALPHA_ATLAS_LEGENDS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>ACivSymbolAtlasLegends32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_ALPHA_ATLAS_LEGENDS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>ACivSymbolAtlasLegends24.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ACIV_ALPHA_ATLAS_LEGENDS</Atlas>
+			<IconSize>16</IconSize>
+			<Filename>ACivSymbolAtlasLegends16.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	
+		<!-- ROBB PORTRAITS -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_ROBB</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsRobb256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_ROBB</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsRobb128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_ROBB</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsRobb64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- DROGO PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_DROGO</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsDrogo256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_DROGO</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsDrogo128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_DROGO</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsDrogo64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- TYWIN PORTRAIT -->
+		
+		<Row>
+			<Atlas>LEADER_ATLAS_TYWIN</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsTywin256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_TYWIN</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsTywin128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_TYWIN</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsTywin64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- BALON PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_BALON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsBalon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_BALON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsBalon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_BALON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsBalon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- RENLY PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_RENLY</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsRenly256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_RENLY</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsRenly128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_RENLY</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsRenly64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- STANNIS PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_STANNIS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsStannis256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_STANNIS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsStannis128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_STANNIS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsStannis64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- DAENERYS PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_DAENERYS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsDaenerys256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_DAENERYS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsDaenerys128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_DAENERYS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsDaenerys64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- TYRELL PORTRAIT -->
+
+		<!--<Row>
+			<Atlas>LEADER_ATLAS_TYRELL</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsTyrell256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_TYRELL</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsTyrell128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_TYRELL</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsTyrell64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>-->
+		<Row>
+			<Atlas>LEADER_ATLAS_TYRELL</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>OlennaPortrait256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_TYRELL</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>OlennaPortrait128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_TYRELL</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>OlennaPortrait64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- MARTELL PORTRAIT -->
+
+		<!--<Row>
+			<Atlas>LEADER_ATLAS_MARTELL</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsMartell256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_MARTELL</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsMartell128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_MARTELL</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsMartell64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>-->
+		<Row>
+			<Atlas>LEADER_ATLAS_MARTELL</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>DoranPortrait256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_MARTELL</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>DoranPortrait128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_MARTELL</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>DoranPortrait64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- EDMURE PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_EDMURE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsEdmure256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_EDMURE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsEdmure128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_EDMURE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsEdmure64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+		<!-- MANCE PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_MANCE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsMance256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_MANCE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsMance128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_MANCE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsMance64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- LITTLEFINGER PORTRAIT -->
+
+		<Row>
+			<Atlas>LEADER_ATLAS_BAELISH</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>LeaderPortraitsBaelish256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_BAELISH</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>LeaderPortraitsBaelish128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ATLAS_BAELISH</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>LeaderPortraitsBaelish64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<!-- UNIT FLAGS -->
+		
+		<Row>
+			<Atlas>ADLC02_UNIT_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Eunitflagatlaswhite32_dlc_02.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AKOREA_UNIT_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Dunitflagatlaswhite32_dlc_korea.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AUNIT_FLAG_ATLAS_1</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Aunitflagatlaswhite32_expansion.dds</Filename>
+			<IconsPerRow>7</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		
+	</IconTextureAtlases>
+</GameData>
