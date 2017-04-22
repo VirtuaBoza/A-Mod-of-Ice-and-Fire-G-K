@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/8/2013 12:31:10 PM -->
+<GameData>
+	<Buildings>
+		<Delete Type="BUILDING_STONEHENGE"/>
+		<Delete Type="BUILDING_GREAT_LIBRARY"/>
+		<Delete Type="BUILDING_TEMPLE_ARTEMIS"/>
+		<Delete Type="BUILDING_PYRAMID"/>
+		<Delete Type="BUILDING_MAUSOLEUM_HALICARNASSUS"/>
+		<Delete Type="BUILDING_STATUE_ZEUS"/>
+		<Delete Type="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Delete Type="BUILDING_CIRCUS_MAXIMUS"/>
+		<Delete Type="BUILDING_HANGING_GARDEN"/>
+		<Delete Type="BUILDING_TERRACOTTA_ARMY"/>
+		<Delete Type="BUILDING_NATIONAL_COLLEGE"/>
+		<Delete Type="BUILDING_ORACLE"/>
+		<Delete Type="BUILDING_NATIONAL_EPIC"/>
+		<Delete Type="BUILDING_PETRA"/>
+		<Delete Type="BUILDING_GREAT_WALL"/>
+		<Delete Type="BUILDING_HEROIC_EPIC"/>
+		<Delete Type="BUILDING_COLOSSUS"/>
+		<Delete Type="BUILDING_HAGIA_SOPHIA"/>
+		<Delete Type="BUILDING_MOSQUE_OF_DJENNE"/>
+		<Delete Type="BUILDING_GRAND_TEMPLE"/>
+		<Delete Type="BUILDING_CHICHEN_ITZA"/>
+		<Delete Type="BUILDING_NATIONAL_TREASURY"/>
+		<Delete Type="BUILDING_MACHU_PICHU"/>
+		<Delete Type="BUILDING_OXFORD_UNIVERSITY"/>
+		<Delete Type="BUILDING_ANGKOR_WAT"/>
+		<Delete Type="BUILDING_ALHAMBRA"/>
+		<Delete Type="BUILDING_IRONWORKS"/>
+		<Delete Type="BUILDING_NOTRE_DAME"/>
+		<Delete Type="BUILDING_FORBIDDEN_PALACE"/>
+		<!--BNW-->
+		<Delete Type="BUILDING_PARTHENON"/>
+		<Delete Type="BUILDING_BOROBUDUR"/>
+	</Buildings>
+	<Features>
+		<Delete Type="FEATURE_CRATER"/>
+		<Delete Type="FEATURE_MESA"/>
+		<Delete Type="FEATURE_REEF"/>
+		<Delete Type="FEATURE_VOLCANO"/>
+		<Delete Type="FEATURE_FUJI"/>
+		<Delete Type="FEATURE_GEYSER"/>
+		<Delete Type="FEATURE_GIBRALTAR"/>
+		<Delete Type="FEATURE_POTOSI"/>
+		<Delete Type="FEATURE_EL_DORADO"/>
+		<Delete Type="FEATURE_FOUNTAIN_YOUTH"/>
+		<Delete Type="FEATURE_MT_KAILASH"/>
+		<Delete Type="FEATURE_MT_SINAI"/>
+		<Delete Type="FEATURE_SRI_PADA"/>
+		<Delete Type="FEATURE_ULURU"/>
+		<Delete Type="FEATURE_SOLOMONS_MINES"/>
+		<Delete Type="FEATURE_LAKE_VICTORIA"/>
+		<Delete Type="FEATURE_KILIMANJARO"/>
+	</Features>
+</GameData>

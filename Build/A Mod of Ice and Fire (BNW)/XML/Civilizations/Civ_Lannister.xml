@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2012 9:47:20 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Where Type="CIVILIZATION_CHINA"/>
+			<Set Description="TXT_KEY_CIV_LANNISTER_DESC" ShortDescription="TXT_KEY_CIV_LANNISTER_SHORT_DESC" Adjective="TXT_KEY_CIV_LANNISTER_ADJECTIVE" Civilopedia="TXT_KEY_CIV_LANNISTER_PEDIA" CivilopediaTag="TXT_KEY_CIV5_LANNISTER" DefaultPlayerColor="PLAYERCOLOR_DARK_YELLOW" ArtDefineTag="ART_DEF_CIVILIZATION_ENGLAND" ArtStyleType="ARTSTYLE_EUROPEAN" ArtStyleSuffix="_EURO" ArtStylePrefix="EUROPEAN " PortraitIndex="2" IconAtlas="ACIV_COLOR_ATLAS_LEGENDS" AlphaIconAtlas="ACIV_ALPHA_ATLAS_LEGENDS" MapImage="MapCasterlyRock.dds" DawnOfManQuote="TXT_KEY_CIV5_DAWN_LANNISTER_TEXT" DawnOfManImage="DOM_Tywin1.dds" DawnOfManAudio="NULL" SoundtrackTag="Sweden"/>
+		</Update>
+		<!-- PortraitIndex="0" IconAtlas="CIV_COLOR_ATLAS_LANNISTER" -->
+	</Civilizations>
+	<Civilization_CityNames>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_BEIJING"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_SHANGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_GUANGZHOU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_NANJING"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_XIAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_CHENGDU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_HANGZHOU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_TIANJIN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_MACAU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_SHANDONG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_KAIFENG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_NINGBO"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_BAODING"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_YANGZHOU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_HAERBIN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_CHONGQING"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_LOYANG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_KUNMING"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_TAIPEI"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_SHENYANG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_TAIYUAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_TAINAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_DALIAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_LIJIANG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_WUXI"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_SUZHOU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_MAOMING"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_SHAOGUAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_YANGJIANG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_HEYUAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_LIAONING"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_HUBEI"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_GANSU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_HUANGSHI"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_YICHANG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_YINGTAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_XINYU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_XINZHENG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_HANDAN"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_DUNHUANG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_GAOYU"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_NANTONG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_WEIFANG"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" CityName="TXT_KEY_CITY_NAME_XIKANG"/>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK16</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK17</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK18</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK19</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK20</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK21</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK22</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK23</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CASTERLY_ROCK24</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Civilization_Leaders>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_CHINA"/>
+			<Set LeaderheadType="LEADER_TYWIN"/>
+		</Update>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_CHINA"/>
+			<Set ReligionType="RELIGION_SEVEN"/>
+		</Update>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_0"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_1"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_2"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_3"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_4"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_5"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_6"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_7"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_8"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA" SpyName="TXT_KEY_SPY_NAME_CHINA_9"/>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_7</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+	<Civilization_UnitClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_CHINA" UnitType="UNIT_CHINESE_CHUKONU"/>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+			<UnitType>UNIT_SELLSWORDS</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+			<UnitType>UNIT_SWORN_SWORD</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_CHINA" BuildingType="BUILDING_PAPER_MAKER"/>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<BuildingType>BUILDING_LMARKET</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

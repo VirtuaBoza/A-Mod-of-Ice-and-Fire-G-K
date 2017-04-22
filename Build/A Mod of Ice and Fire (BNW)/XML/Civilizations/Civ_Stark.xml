@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/13/2012 6:59:23 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Where Type="CIVILIZATION_GERMANY"/>
+			<Set Description="TXT_KEY_CIV_STARK_DESC" ShortDescription="TXT_KEY_CIV_STARK_SHORT_DESC" Adjective="TXT_KEY_CIV_STARK_ADJECTIVE" Civilopedia="TXT_KEY_CIV_STARK_PEDIA" CivilopediaTag="TXT_KEY_CIV5_STARK" DefaultPlayerColor="PLAYERCOLOR_GRAY" ArtDefineTag="ART_DEF_CIVILIZATION_GERMANY" ArtStyleType="ARTSTYLE_EUROPEAN" ArtStyleSuffix="_EURO" ArtStylePrefix="EUROPEAN " PortraitIndex="0" IconAtlas="ACIV_COLOR_ATLAS_LEGENDS" AlphaIconAtlas="ACIV_ALPHA_ATLAS_LEGENDS" MapImage="MapWinterfell.dds" DawnOfManQuote="TXT_KEY_CIV5_DAWN_STARK_TEXT" DawnOfManImage="DOM_Robb1.dds" DawnOfManAudio="NULL" SoundtrackTag="Huns"/>
+		</Update>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_BERLIN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_HAMBURG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_MUNICH"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_COLOGNE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_FRANKFURT"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_ESSEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_DORTMUND"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_STUTTGART"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_DUSSELDORF"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_BREMEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_HANNOVER"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_DUISBURG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_LEIPZIG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_DRESDEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_BONN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_BOCHUM"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_BIELEFELD"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_KARLSRUHE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_GELSENKIRCHEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_WIESBADEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_MUNSTER"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_ROSTOCK"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_CHEMNITZ"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_BRAUNSCHWEIG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_HALLE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_MONCHENGLADBACH"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_KIEL"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_WUPPERTAL"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_FREIBURG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_HAGEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_ERFURT"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_KASSEL"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_OBERHAUSEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_HAMM"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_SAARBRUCKEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_KREFELD"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_POTSDAM"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_SOLINGEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_OSNABRUCK"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_LUDWIGSHAFEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_LEVERKUSEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_OLDENBURG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_NEUSS"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_MULHEIM"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_DARMSTADT"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_HERNE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_WURZBURG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_RECKLINGHAUSEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_GOTTINGEN"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_WOLFSBURG"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_KOBLENZ"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_HILDESHEIM"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" CityName="TXT_KEY_CITY_NAME_ERLANGEN"/>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL16</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL17</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WINTERFELL18</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Civilization_Leaders>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_GERMANY"/>
+			<Set LeaderheadType="LEADER_ROBB"/>
+		</Update>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_GERMANY"/>
+			<Set ReligionType="RELIGION_OLD_GODS"/>
+		</Update>
+	</Civilization_Religions>
+
+	<Civilization_SpyNames>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_0"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_1"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_2"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_3"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_4"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_5"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_6"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_7"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_8"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" SpyName="TXT_KEY_SPY_NAME_GERMANY_9"/>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_7</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Civilization_UnitClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" UnitType="UNIT_GERMAN_LANDSKNECHT"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY" UnitType="UNIT_GERMAN_PANZER"/>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<UnitType>UNIT_DIREWOLF</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+			<UnitType>UNIT_CRANNOGMAN</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_NORTH_WALL</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

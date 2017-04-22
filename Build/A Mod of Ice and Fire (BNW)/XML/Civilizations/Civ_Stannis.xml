@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/26/2013 11:25:35 PM -->
+<GameData>
+	<Civilizations>
+		<Update>
+			<Where Type="CIVILIZATION_ENGLAND"/>
+			<Set Description="TXT_KEY_CIV_STANNISBARATHEON_DESC" ShortDescription="TXT_KEY_CIV_STANNISBARATHEON_SHORT_DESC" Adjective="TXT_KEY_CIV_STANNISBARATHEON_ADJECTIVE" Civilopedia="TXT_KEY_CIV_STANNISBARATHEON_PEDIA" CivilopediaTag="TXT_KEY_CIV5_STANNISBARATHEON" DefaultPlayerColor="PLAYERCOLOR_STANNIS" ArtDefineTag="ART_DEF_CIVILIZATION_ENGLAND" ArtStyleType="ARTSTYLE_EUROPEAN" ArtStyleSuffix="_EURO" ArtStylePrefix="EUROPEAN " PortraitIndex="8" IconAtlas="ACIV_COLOR_ATLAS_LEGENDS" AlphaIconAtlas="ACIV_ALPHA_ATLAS_LEGENDS" MapImage="MapDragonstone.dds" DawnOfManQuote="TXT_KEY_CIV5_DAWN_STANNISBARATHEON_TEXT" DawnOfManImage="DOM_Stannis1.dds" DawnOfManAudio="NULL" SoundtrackTag="Byzantium"/>
+		</Update>
+		<!-- PortraitIndex="0" IconAtlas="CIV_COLOR_ATLAS_STANNIS" -->
+	</Civilizations>
+	<Civilization_CityNames>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_LONDON"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_YORK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_NOTTHINGHAM"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_HASTINGS"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_CANTERBURY"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_COVENTRY"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_WARWICK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_NEWCASTLE"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_OXFORD"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_LIVERPOOL"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_DOVER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_BRIGHTON"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_NORWICH"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_LEEDS"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_READING"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_BIRMINGHAM"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_RICHMOND"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_EXETER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_CAMBRIDGE"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_GLOUCESTER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_MANCHESTER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_BRISTOL"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_LEICESTER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_CARLISLE"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_IPSWICH"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_PORTSMOUTH"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_BERWICK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_BATH"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_MUMBLES"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_SOUTHAMPTON"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_SHEFFIELD"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_SALISBURY"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_COLCHESTER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_PLYMOUTH"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_LANCASTER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_BLACKPOOL"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_WINCHESTER"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" CityName="TXT_KEY_CITY_NAME_HULL"/>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DRAGONSTONE10</CityName>
+		</Row>
+	</Civilization_CityNames>
+	
+	<Civilization_Leaders>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_ENGLAND"/>
+			<Set LeaderheadType="LEADER_STANNIS"/>
+		</Update>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_ENGLAND"/>
+			<Set ReligionType="RELIGION_RHLLOR"/>
+		</Update>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_0"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_1"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_2"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_3"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_4"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_5"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_6"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_7"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_8"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" SpyName="TXT_KEY_SPY_NAME_ENGLAND_9"/>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_UNIVERSAL_7</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_UnitClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" UnitType="UNIT_ENGLISH_LONGBOWMAN"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND" UnitType="UNIT_ENGLISH_SHIPOFTHELINE"/>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
+			<UnitType>UNIT_LPIRATE</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_WARRIOR_LIGHT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_NIGHTFIRE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

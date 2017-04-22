@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/9/2013 1:51:22 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_COLOSSEUM"/>
+			<Set PortraitIndex="20" ArtDefineTag="NULL" DisplayPosition="0" ArtInfoCulturalVariation="false"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PAGODA"/>
+			<Set IconAtlas="ADRAGON_UNIT_ATLAS" PortraitIndex="6"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MOSQUE"/>
+			<Set IconAtlas="BW_ATLAS_1" PortraitIndex="53"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LIBRARY"/>
+			<Set SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_UNIVERSITY"/>
+			<Set SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PALACE"/>
+			<Set GreatWorkSlotType="NULL" GreatWorkCount="0"/>
+		</Update>-->
+		<Replace>
+			<Type>BUILDING_AMPHITHEATER</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>TXT_KEY_BUILDING_AMPHITHEATER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMPHITHEATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY</Strategy>
+			<ArtDefineTag>NULL</ArtDefineTag>
+			<DisplayPosition>0</DisplayPosition>
+			<ArtInfoCulturalVariation>false</ArtInfoCulturalVariation>
+			<Happiness>1</Happiness>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>0</PortraitIndex>
+		</Replace>
+		<Delete Type="BUILDING_WRITERS_GUILD"/>
+		<Delete Type="BUILDING_ARTISTS_GUILD"/>
+	</Buildings>
+</GameData>

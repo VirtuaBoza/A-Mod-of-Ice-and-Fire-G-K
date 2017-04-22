@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/7/2013 6:42:46 PM -->
+<GameData>
+	<!--Apostrophe fix-->
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_COLOSSEUM"/>
+			<Set Help="TXT_KEY_BUILDING_MUMMERSHOW_STRATEGY" Description="TXT_KEY_BUILDING_MUMMERSHOW" Civilopedia="TXT_KEY_CIV5_BUILDINGS_MUMMERSHOW_TEXT" Strategy="TXT_KEY_BUILDING_MUMMERSHOW_STRATEGY"/>
+		</Update>
+	</Buildings>
+	<Technologies>
+		<Update>
+			<Where Type="TECH_CONSTRUCTION"/>
+			<Set Help="TXT_KEY_TECH_CONSTRUCTIONA_HELP"/>
+		</Update>
+	</Technologies>
+	<Language_en_US>
+		<!--Barbarians to Wildlings-->
+		<!--<Update>
+			<Where Tag="TXT_KEY_MISC_DESTROYED_BARBARIAN_CAMP"/>
+			<Set Text="You have captured a Wildling Encampment and recovered {1_Num} Gold!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV_BARBARIAN_ADJECTIVE"/>
+			<Set Text="Wildling"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV_BARBARIAN_DESC"/>
+			<Set Text="Wildling Village"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV_BARBARIAN_SHORT_DESC"/>
+			<Set Text="Wildlings"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_FOUND_BARB_CAMP"/>
+			<Set Text="A Wildling Encampment has been discovered! It will create Wildling units until dispersed!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_BARBARIAN_CLEARED"/>
+			<Set Text="Wildling Encampment Cleared!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS"/>
+			<Set Text="No Wildlings"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS_HELP"/>
+			<Set Text="Wildlings and their Encampments do not appear on the map."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_EUPANEL_VS_BARBARIANS_BONUS"/>
+			<Set Text="Bonus VS Wildlings"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_BARB_QUEST_LONG"/>
+			<Set Text="The City-State of {1_CivName:textkey} wants you to destroy the wildling encampment in this tile."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_BARBARIANS"/>
+			<Set Text="Sadly, we remain plagued by Wildlings."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP"/>
+			<Set Text="There is still that Wildling Encampment nearby that we would like someone to take care of."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL"/>
+			<Set Text="They want a nearby Wildling Encampment destroyed."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_BARB_CAMP_CONVERTS"/>
+			<Set Text="The wildlings in this Encampment have joined your army and given you [ICON_GOLD]!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED"/>
+			<Set Text="You have killed a group of Wildlings near {1_CivName:textkey}! They are grateful, and your [ICON_INFLUENCE] Influence with them has increased by 12!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_SM_MINOR_BARB_KILLED"/>
+			<Set Text="Barbarian killed near {1_CivName:textkey}!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST"/>
+			<Set Text="{1_CivName:textkey} requests your assistance against invading Wildlings! Each Wildling you kill will earn you [ICON_INFLUENCE] Influence over the City-State."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST_LOST_CHANCE"/>
+			<Set Text="{1_CivName:textkey} no longer needs your assistance against the Wildlings."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CAMP"/>
+			<Set Text="The citizens of {1_CivName:textkey} have become uneasy at the presence of a nearby Wildling Encampment, and they would like someone to destroy it. They will amply reward whoever accomplishes this."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP"/>
+			<Set Text="You have successfully destroyed the Wildling Encampment as requested by {1_CivName:textkey}! Your [ICON_INFLUENCE] Influence over them has increased."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NTFN_QUEST_ENDED_KILL_CAMP"/>
+			<Set Text="The Wildling Encampment {1_MinorName:textkey} wanted you to eliminate has been destroyed by someone else!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_BARB_CAMP"/>
+			<Set Text="Wildling Encampment discovered"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_SUMMARY_BARB_CAMP_CONVERTS"/>
+			<Set Text="Wildling Encampment joins you"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of your army in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives a +25% combat bonus VS Wildlings, and notifications will be provided when new Wildlings Encampments spawn in revealed territory. Gain [ICON_CULTURE] Culture for the empire from each wildling killed.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree will grant [ICON_GOLD] Gold for each enemy unit killed."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BARB_CAMP_CLEARED"/>
+			<Set Text="You have dispersed a villainous Wildling Encampment and recovered {1_NumGold} [ICON_GOLD] Gold from it!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_REVEAL_NEARBY_BARBS"/>
+			<Set Text="Evidence of recent activity reveals the location of nearby Wildling Encampments!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS"/>
+			<Set Text="Raging Wildlings"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS_TT"/>
+			<Set Text="Toggles whether the game has Raging Wildlings."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS"/>
+			<Set Text="Raging Wildlings"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS_HELP"/>
+			<Set Text="The rate at which Wildlings spawn is greatly increased."/>
+		</Update>-->
+		<!-- Barbarians to Marauders -->
+		<Update>
+			<Where Tag="TXT_KEY_MISC_DESTROYED_BARBARIAN_CAMP"/>
+			<Set Text="You have captured a Marauder Encampment and recovered {1_Num} Gold!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV_BARBARIAN_ADJECTIVE"/>
+			<Set Text="Marauder"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV_BARBARIAN_DESC"/>
+			<Set Text="Marauder Village"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV_BARBARIAN_SHORT_DESC"/>
+			<Set Text="Marauders"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_FOUND_BARB_CAMP"/>
+			<Set Text="A Marauder Encampment has been discovered! It will create Marauder units until dispersed!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_BARBARIAN_CLEARED"/>
+			<Set Text="Marauder Encampment Cleared!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS"/>
+			<Set Text="No Marauders"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS_HELP"/>
+			<Set Text="Marauders and their Encampments do not appear on the map."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_EUPANEL_VS_BARBARIANS_BONUS"/>
+			<Set Text="Bonus VS Marauders"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_BARB_QUEST_LONG"/>
+			<Set Text="The City-State of {1_CivName:textkey} wants you to destroy the Marauder encampment in this tile."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_BARBARIANS"/>
+			<Set Text="Sadly, we remain plagued by Marauders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP"/>
+			<Set Text="There is still that Marauder Encampment nearby that we would like someone to take care of."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL"/>
+			<Set Text="They want a nearby Marauder Encampment destroyed."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_BARB_CAMP_CONVERTS"/>
+			<Set Text="The Marauders in this Encampment have joined your army and given you [ICON_GOLD]!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED"/>
+			<Set Text="You have killed a group of Marauders near {1_CivName:textkey}! They are grateful, and your [ICON_INFLUENCE] Influence with them has increased by 12!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_SM_MINOR_BARB_KILLED"/>
+			<Set Text="Marauder killed near {1_CivName:textkey}!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST"/>
+			<Set Text="{1_CivName:textkey} requests your assistance against invading Marauders! Each Marauder you kill will earn you [ICON_INFLUENCE] Influence over the City-State."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST_LOST_CHANCE"/>
+			<Set Text="{1_CivName:textkey} no longer needs your assistance against the Marauders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CAMP"/>
+			<Set Text="The citizens of {1_CivName:textkey} have become uneasy at the presence of a nearby Marauder Encampment, and they would like someone to destroy it. They will amply reward whoever accomplishes this."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP"/>
+			<Set Text="You have successfully destroyed the Marauder Encampment as requested by {1_CivName:textkey}! Your [ICON_INFLUENCE] Influence over them has increased."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NTFN_QUEST_ENDED_KILL_CAMP"/>
+			<Set Text="The Marauder Encampment {1_MinorName:textkey} wanted you to eliminate has been destroyed by someone else!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_BARB_CAMP"/>
+			<Set Text="Marauder Encampment discovered"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_SUMMARY_BARB_CAMP_CONVERTS"/>
+			<Set Text="Marauder Encampment joins you"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of your army in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives a +25% combat bonus VS Marauders, and notifications will be provided when new Marauder Encampments spawn in revealed territory. Gain [ICON_CULTURE] Culture for the empire from each Marauder killed.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree will grant [ICON_GOLD] Gold for each enemy unit killed."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BARB_CAMP_CLEARED"/>
+			<Set Text="You have dispersed a villainous Marauder Encampment and recovered {1_NumGold} [ICON_GOLD] Gold from it!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_REVEAL_NEARBY_BARBS"/>
+			<Set Text="Evidence of recent activity reveals the location of nearby Marauder Encampments!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS"/>
+			<Set Text="Raging Marauders"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS_TT"/>
+			<Set Text="Toggles whether the game has Raging Marauders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS"/>
+			<Set Text="Raging Marauders"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS_HELP"/>
+			<Set Text="The rate at which Marauders spawn is greatly increased."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GENERIC_INSULT_GENERIC_4"/>
+			<Set Text="Ah, it's you. My apologies. Sometimes I get you mixed up with the marauders I have to swat from time to time."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GENERIC_INSULT_MILITARY_2"/>
+			<Set Text="With an army so weak it's a surprise your empire hasn't succumb to a marauder invasion."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GENERIC_INSULT_CULTURE_2"/>
+			<Set Text="Rumor has it that your culture is so laughable that even the marauders are shying away from your lands."/>
+		</Update>
+		
+		<!--BC and AD to ca. and AL-->
+		<Update>
+			<Where Tag="TXT_KEY_TIME_AD"/>
+			<Set Text="{1_Date: number #} AL"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TIME_AD_SAVE"/>
+			<Set Text="{2} AL-{1_Date}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TIME_BC"/>
+			<Set Text="ca. {1_Date: number #}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TIME_BC_SAVE"/>
+			<Set Text="{2} ca.-{1_Date}"/>
+		</Update>
+		
+		<!--Religious buildings name changes-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CATHEDRAL"/>
+			<Set Text="Sept"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_CATHEDRAL_TEXT"/>
+			<Set Text="The places of worship of the Seven are called septs, and every sept houses representational art portraying each of the seven aspects. In rural septs, they may merely be carved masks or simple charcoal drawings on a wall, while in wealthy septs, they may be statutes inlaid with precious metals and stones. Worshipers light candles before the altars of the symbolizing each of the seven aspects. Ceremonies are lead by the highest ranking male member of the clergy, and hymns are often sung. In the naming of a child, seven oils are used to anoint the infant. Weddings are conducted standing between the altars of the Father and the Mother. Rites of worship held in rich areas and during special occasions can feature embellishments such as choirs of seventy-seven septas."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CATHEDRAL_STRATEGY"/>
+			<Set Text="Can only be built in cities following a religion with the Septs belief. Construct this building by purchasing it with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CATHEDRALS_SHORT"/>
+			<Set Text="Septs"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CATHEDRALS"/>
+			<Set Text="Use [ICON_PEACE] Faith to purchase Septs (+1 [ICON_PEACE] Faith, +3 [ICON_CULTURE] Culture, +1 [ICON_HAPPINESS_1] Happiness, Singer Specialist slot)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MONASTERY_DESC"/>
+			<Set Text="Nightfire"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT"/>
+			<Set Text="Every evening, red priests light fires and sing prayers at their temples, asking the Lord of Light to bring back the dawn. Followers often gaze into flames in an effort to receive visions of the future. It is believed that the Lord of Light will occasionally answer the prayers of his followers by granting visions and abilities such as raising the dead. Some rites performed by the red priests include sacrificial immolation."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY"/>
+			<Set Text="Nightfires increase the [ICON_PEACE] Faith and [ICON_CULTURE] Culture output of a city, especially if the city is near to improved Incense and/or Wine resources. Can only be built in cities following a religion with the Nightfires belief. Construct this building by purchasing it with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_MONASTERIES_SHORT"/>
+			<Set Text="Nightfires"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_MONASTERIES"/>
+			<Set Text="Use [ICON_PEACE] Faith to purchase Nightfires (+2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, more with [ICON_RES_WINE] Wine or [ICON_RES_INCENSE] Incense)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MOSQUE"/>
+			<Set Text="Godswood"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_MOSQUE_TEXT"/>
+			<Set Text="The godswood is usually a small wooded area enclosed by the castle walls throughout the Seven Kingdoms. It is primarily used as a place of worship by those who carry on the traditions of the First Men and pray to the Old Gods. However in those places that believe in the Faith of the Seven, it is little more than a private wooded area of solitude. When the First Men took up the Old Faith, they created godswoods, groves within their castles and villages where a single Weirwood known as a heart-tree, was planted so the gods could be worshiped. In southern castles such as the Red Keep the heart-tree is not a weirwood but a common tree such as an oak."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MOSQUE_STRATEGY"/>
+			<Set Text="Can only be built in cities following a religion with the Godswoods belief. Construct this building by purchasing it with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_MOSQUES_SHORT"/>
+			<Set Text="Godswoods"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_MOSQUES"/>
+			<Set Text="Use [ICON_PEACE] Faith to purchase Godswoods (+3 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, +1 [ICON_HAPPINESS_1] Happiness)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_PAGODA"/>
+			<Set Text="Mother of Mountains"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_PAGODA_TEXT"/>
+			<Set Text="The Mother of Mountains is a mountain that lies within sight of Vaes Dothrak. It is a holy place for the Dothraki people and only men can set foot on it."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_PAGODA_STRATEGY"/>
+			<Set Text="Can only be built in cities following a religion with the Mother of Mountains belief. Construct this building by purchasing it with [ICON_PEACE] Faith."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_PAGODAS_SHORT"/>
+			<Set Text="Mother of Mountains"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_PAGODAS"/>
+			<Set Text="Use [ICON_PEACE] Faith to purchase Mother of Mountains (+2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, +2 [ICON_HAPPINESS_1] Happiness)"/>
+		</Update>
+		
+		<!--Inquisitor and Missionary to Priest and Septon-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_INQUISITOR"/>
+			<Set Text="Priest"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_INQUISITOR_TEXT"/>
+			<Set Text="Priests are the clergy of a given religion."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_INQUISITOR_STRATEGY"/>
+			<Set Text="Can be purchased with [ICON_PEACE] Faith in any city with a majority Religion that has been enhanced. They can remove other religions from your cities (expending the Priest) or be placed inside a city to protect it from Septons and Prophets trying to spread other religions into that city."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MISSIONARY"/>
+			<Set Text="Septon"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_MISSIONARY_TEXT"/>
+			<Set Text="Male clergy of the Faith are called septons, and there are various orders of devotion amongst them, each concentrating their devotion on one aspect of the Seven. For example, there are septons sworn the Smith, and they wear small metal hammers on a thong around their necks. Monastic orders of septons can live in septries (plural of septry), self sustaining enclaves of sworn brothers who are called Brown Brothers. Septons without a sept wander the countryside ministering to the smallfolk in exchange for food and shelter. They are sometimes disparaged as begging brothers, and they wear a small metal bowl around their necks. The figurehead of the Faith is known as the High Septon."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MISSIONARY_STRATEGY"/>
+			<Set Text="Can be purchased with [ICON_PEACE] Faith in any city with a majority Religion. Once adjacent to a city they can spread their religion to it (expending the Septon after the second use). If a Septon enters another civilization without Open Borders, their Religious Strength is reduced each turn. Once their Religious Strength reaches zero, they are destroyed."/>
+		</Update>
+		
+		<!--Circus to Tourney Grounds-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS"/>
+			<Set Text="Tourney Grounds"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_CIRCUS_TEXT"/>
+			<Set Text="Tourney grounds info goes here."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_STRATEGY"/>
+			<Set Text="Tourney Grounds can only be constructed in a city with an improved source of [ICON_RES_HORSE] Horses or [ICON_RES_IVORY] Ivory nearby. Tourney Grounds increases [ICON_HAPPINESS_1] Happiness in civilizations."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP"/>
+			<Set Text="City must have an improved source of [ICON_RES_HORSE] Horses or [ICON_RES_IVORY] Ivory nearby."/>
+		</Update>
+		
+		<!--Colosseum to Mummer's Show-->
+		
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MUMMERSHOW_STRATEGY</Tag>
+			<Text>The Mummer's Show increases a civilization's [ICON_HAPPINESS_1] Happiness. It cannot provide more Happiness than there are [ICON_CITIZEN] Citizens in a city.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MUMMERSHOW</Tag>
+			<Text>Mummer's Show</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CIV5_BUILDINGS_MUMMERSHOW_TEXT</Tag>
+			<Text>Mummer's show info goes here.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_CONSTRUCTIONA_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Composite Bowman[ENDCOLOR], a powerful ranged unit, and the [COLOR_POSITIVE_TEXT]Mummer's Show[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Lumbermills[ENDCOLOR] on forested map tiles, increasing their [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		
+		<!-- Chariot Archer to Horse Archer-->
+
+		<Row>
+			<Tag>TXT_KEY_UNIT_HORSE_ARCHER</Tag>
+			<Text>Horse Archer</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CIV5_HORSE_ARCHER_TEXT</Tag>
+			<Text>It's bowmen on horseback. What do you want?</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY</Tag>
+			<Text>Horse Archers are fast ranged units, deadly on open terrain. They are slightly more powerful than the Archer and can move twice the distance. However, Horse Archers suffer a movement penalty when entering Forest, Jungle or Hill hexes (unles roads have been constructed in them). As a mounted unit, the Horse Archer is vulnerable to Spearmen.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_UNIT_HELP_HORSE_ARCHER</Tag>
+			<Text>A fast Ranged Unit highly effective on flat ground.</Text>
+		</Row>
+		
+		<!--Galleass to Dromond-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GALLEASS"/>
+			<Set Text="Dromond"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GALLEASS_TEXT"/>
+			<Set Text="The Dromond is a class of naval warship that has a ranged attack."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GALLEASS_STRATEGY"/>
+			<Set Text="The Dromond is the only naval unit with a ranged attack available to the civilizations in the game. It is much stronger than earlier naval units but a bit slower. It cannot initiate melee combat. The Dromond is useful for clearing enemy ships out of shallow waters."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_GALLEASS"/>
+			<Set Text="Age of Valyria Naval Unit used to wrest control of the seas with its ranged attack."/>
+		</Update>
+		
+		<!--Caravel to Longships -->
+
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CARAVEL"/>
+			<Set Text="Longship"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CARAVEL_STRATEGY"/>
+			<Set Text="Longships are a significant upgrade to the naval power of a civilization. A Melee unit, they are stronger and faster than a Trireme, and they can enter Deep Ocean hexes. They are quick, giving them a promotion that gives them a good chance to withdraw to the rear before an enemy naval melee attack can occur. Longships have an enhanced sight radius."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CARAVEL"/>
+			<Set Text="Fast Seven Kingdoms Age exploration Unit with an enhanced sight radius that can enter Ocean. Fights as a naval melee unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_CARAVEL_HEADING"/>
+			<Set Text="Longship"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_CARAVEL_TEXT"/>
+			<Set Text="It is a fleet of longships. What do you want?"/>
+		</Update>
+
+		<!-- Policy Name Changes -->
+		
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM"/>
+			<Set Text="Maestery"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP"/>
+			<Set Text="MAESTERY"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Maestery[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Maestery will grant +15% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.[NEWLINE][NEWLINE]Adopting all Policies in the Maestery tree will grant 2 free Technologies.[NEWLINE][NEWLINE]May purchase Great Maesters with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Piety.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith and [ICON_CULTURE] Culture of empires.[NEWLINE][NEWLINE]Adopting Piety allows you to build Shrines and Temples in half the usual time.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree will provide a 20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith and Holy Sites provide +3 [ICON_GOLD] Gold and +3 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Maestery."/>
+		</Update>
+		
+		<!-- Great Persons Name Change -->
+		<!-- Admiral to Captain -->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_ADMIRAL"/>
+			<Set Text="Great Captain"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_EUPANEL_GA_NEAR"/>
+			<Set Text="Near Great Captain"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MO_GA_PROGRESS"/>
+			<Set Text="Great Captain Progress"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MO_ADMIRAL_TT"/>
+			<Set Text="{1_current}/{2_needed}[NEWLINE]Progress towards the next Great Captain is based on the XP earned by naval units in combat."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Autocracy reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military. Receive 10 [ICON_CULTURE] Culture as plunder for each point of [ICON_CULTURE] Culture produced in the captured city.[NEWLINE][NEWLINE]Adopting all Policies in the Autocracy tree will grant a 25% attack bonus to all Military Units for 50 turns.[NEWLINE][NEWLINE]May purchase Great Commanders and Great Captains with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Order.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Naval Tradition[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. A Great Captain appears. +2 [ICON_MOVES] Movement for all Great Captains."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISSION_REPAIR_FLEET_HELP"/>
+			<Set Text="This order will consume the Great Captain and heal all of your naval units and embarked units in this tile and all adjacent tiles."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GREAT_ADMIRAL_TEXT"/>
+			<Set Text="Great Captains provide the leadership necessary to guide powerful navies to victory on the open sea. They plan, implement, and execute the complex maneuvers necessary to maintain naval superiority, providing the coastal security that every civilization needs."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY"/>
+			<Set Text="The Great Captain has the ability to instantly repair every naval and embarked unit in the same hex, as well as in adjacent hexes. The Great Captain is consumed when performing this action. The Great Captain also provides a 15% combat bonus to all player-owned naval units within 2 tiles. The Great Captain is NOT consumed when he provides this bonus."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL"/>
+			<Set Text="Mobile Captain"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE"/>
+			<Set Text="Great Captain"/>
+		</Update>
+		<!--<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY"/>
+			<Set Text="The Great Captain follows the same principle of the Great Commander. Instead of being generated in cities by specialists, Great Captains are generated by naval combat. Whenever one of your naval units gains XPs, your civilization generates Great Captain points (except when fighting against Wildlings). When you have enough points, you earn a Great Captain. At that point the amount you need for the next Great Captain rises."/>
+		</Update>-->
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY"/>
+			<Set Text="The Great Captain follows the same principle of the Great Commander. Instead of being generated in cities by specialists, Great Captains are generated by naval combat. Whenever one of your naval units gains XPs, your civilization generates Great Captain points (except when fighting against Marauders). When you have enough points, you earn a Great Captain. At that point the amount you need for the next Great Captain rises."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_BODY"/>
+			<Set Text="A Great Captain provides a 15% combat bonus to all friendly naval units within 2 tiles. This combat bonus applies to all forms of naval combat: melee, ranged, defense, and so forth."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_ABILITIES_HEADING3_BODY"/>
+			<Set Text="Each Great Person type has two abilities (but see the Great Captain, below).[NEWLINE]- They can be expended to construct a Special Improvement.[NEWLINE]- They have some other special ability."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GA_PROGRESS"/>
+			<Set Text="Great Captain Progress"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNITS_MOVEMENT_HEADING2_BODY"/>
+			<Set Text="Generally, units move from hex to hex, paying the Movement Cost required to enter the new hex. Units are subject to Stacking limitations - two military units may not end their turn in the same hex, nor can two non-military units, but one military and one non-military unit may end their turn stacked in the same hex. Note that embarked military units, as well as Great Commanders and Great Captains, are all considered non-military, and can be stacked with a military unit for protection.[NEWLINE][NEWLINE]Most units are limited in where they can move - land units cannot enter mountain hexes and naval units cannot enter land hexes (except for port cities). Improvements like roads speeds units movement through land hexes.[NEWLINE][NEWLINE]Check out the section on Movement for details."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NO_ADMIRAL_FROM_FAITH"/>
+			<Set Text="A Great Captain may only be selected if you have started the Autocracy policy tree."/>
+		</Update>
+		
+		<!--Artist to Singer-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_ARTIST"/>
+			<Set Text="Great Singer"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE"/>
+			<Set Text="Our singers are looking for a sensible cultural power to inspire their work.  If your cultural growth outpaces the other civilizations we know in the coming years, we will reward you."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Freedom, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Freedom tree will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.[NEWLINE][NEWLINE]May purchase Great Singers with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Autocracy or Order.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATPEOPLE_HEADING2_BODY"/>
+			<Set Text="This order will consume the Great Singer and initiate a [ICON_GOLDEN_AGE] Golden Age (extra [ICON_PRODUCTION], [ICON_GOLD], and [ICON_CULTURE]) for {1_Num} turns."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATPEOPLE_HEADING2_BODY"/>
+			<Set Text="There are seven types of Great People: Great Singers, Great Builders, Great Merchants, Great Maesters, Great Commanders, Great Captains, and Great Prophets. The first four types are quite similar in functionality, each having abilities related to their areas of expertise, while Great Commanders, Great Captains, and Great Prophets are rather different: they are generated differently and they have different effects upon play. Great Commanders and Great Captains provide bonuses related to land and naval combat, and Great Prophets allow you to found a religion."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GENERATING_HEADING3_BODY"/>
+			<Set Text="Great Singers, Builders, Merchants and Maesters are created in cities by specialists which generate Great People (GP)  points. A city may generate no Great People points, or it may generate a single kind of GP points or it may generate multiple kinds of GP points. GP points are kept track of separately in each city. (For example, Winterfell might generate 1 Singer and 2 Builder GP pts each turn. After 3 turns it would have 3 Singer points and 6 Builder GP pts. The two types of points are not pooled.)[NEWLINE][NEWLINE]When a city has enough of a specific type of GP points, the points are expended to generate a Great Person of that type. Once a Great Person is generated, the amount required for the next Great Person increases in all of cities for that player.[NEWLINE][NEWLINE]For instance, say that a player needs to acquire 10 GP pts to get a Great Person. From the previous example, in five turns Winterfell would have enough Builder GP pts. to create a Great Builder. After the Great Builder was created, Winterfell would have 0 Great Builder points and 5 Great Singer points left, and the amount required for the next Great Person would increase to say 15 points. Eight turns later Winterfell would have 13 Great Singer points and 16 Great Builder points, and it would generate another Great Builder.[NEWLINE][NEWLINE]Note that a Garden building increases the rate at which you generate Great People, and that the Warrior Code social policy immediately generates a Great Commander."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_ARTIST_HEADING3_BODY"/>
+			<Set Text="A singer specialist produces culture and generates points toward a Great Singer. Singers are assigned to culture-related buildings like Ampitheaters."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY"/>
+			<Set Text="Great Singers can construct the special Landmark improvements, which, when worked, provide loads of [ICON_CULTURE] Culture to a city. Great Singers can also create Golden Ages. Great Singers are expended when used in either of these ways."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_CULTUREBOMB_HEADING4_BODY"/>
+			<Set Text="A Great Singer can start a Golden Age. This is a period of special productivity for a civilization. During a Golden Age, any tile which produces gold produces 1 extra gold, production (hammers) in cities is increased 20%, and empire-wide [ICON_CULTURE] Culture is increased by 20%. The duration of the Golden Age depends upon the game difficulty and speed. The Great Singer is expended when he creates a Golden Age."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CULTURE_GETTING_HEADING2_BODY"/>
+			<Set Text="Your civilization acquires culture in a variety of ways:[NEWLINE]- Your Palace: Your palace (created when you build your first city) produces 1 culture point per turn.[NEWLINE]- Ancient Ruins: An ancient ruin might give you a big dose of culture.[NEWLINE]- Buildings: Certain buildings provide culture. The monument is an early example.[NEWLINE]- Specialists: Specialists, particularly singers, generate culture.[NEWLINE]- Social Policies: Certain social policies will increase your culture output. The Piety branch has a number of policies targeted at culture.[NEWLINE]- Great Singer: A Great Artist can construct a Landmark improvement in a tile. If your city works that tile, it will gain a lot of culture.[NEWLINE]- Sovereignties: Some sovereignties give you culture if your relations are friendly."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITIES_SPECIALISTS_HEADING2_BODY"/>
+			<Set Text="Specialists are citizens who have been assigned to work in a building constructed in their city. There are four kinds of specialists in Civilization V: A Mod of Ice and Fire: Maesters, Merchants, Singers, and Builders. An Ampitheater, for example, allows a citizen to be assigned to work in the building as Singer specialists. Not all buildings allow specialists to be assigned to them. See the individual building entries for details."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_ARTIST"/>
+			<Set Text="Singer"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_ARTIST_SLOTS"/>
+			<Set Text="Singer Slots:"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_ARTIST_TITLE"/>
+			<Set Text="Great Singer Points:"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_GREAT_ARTIST"/>
+			<Set Text="Great Singer"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PEDIA_SPEC_HELP_TEXT"/>
+			<Set Text="Time and again throughout history, there have arisen men who have profoundly changed the world around them - singers, maesters, commanders, merchants and others, whose genius sets them head and shoulders above the rest. In this game such visionaries are called Great People.[NEWLINE][NEWLINE]There are seven different kinds of great people in the game: Great Merchants, Great Singers, Great Maesters, Great Builders, Great Commanders, Great Captains, and Great Prophets. Each has a special ability.[NEWLINE][NEWLINE]Your civilization acquires Great People by constructing certain buildings, and then staffing them with specialists, citizens from your cities who have given up working in the field or the mines. While specialists do not work city tiles, they do greatly speed the arrival of Great People. Balancing the need for production and food and the desire for Great People is an important challenge of city management."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NO_ARTIST_FROM_FAITH"/>
+			<Set Text="A Great Singer may only be selected if you have started the Freedom policy tree."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GREATARTISTS_HEADING"/>
+			<Set Text="Great Singers"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GREATARTISTS_TEXT"/>
+			<Set Text="Great Singers are the visionaries of civilization. They interpret the world, creating beauty where none was found before. They write the poems, carve the statues, paint the pictures and sing the songs that define us. They can rise up and enlighten a people, making a civilization far greater than the sum of its parts."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_ARTIST_STRATEGY"/>
+			<Set Text="Create Singers to increase [ICON_CULTURE] Cultural output in a city and to speed the creation of Great Singers."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_ARTIST_HEADING3_TITLE"/>
+			<Set Text="Singer"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_BODY"/>
+			<Set Text="The great singer is one talented singer."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_TITLE"/>
+			<Set Text="Great Singer"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GP_ARTIST_DETAILS"/>
+			<Set Text="[ICON_PLUS] Great Singers"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GP_ARTIST_DETAILS_COLLAPSE"/>
+			<Set Text="[ICON_MINUS] Great Singers"/>
+		</Update>
+		
+		<!-- Engineer to Builder -->
+
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_ENGINEER"/>
+			<Set Text="Great Builder"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NO_ENGINEER_FROM_FAITH"/>
+			<Set Text="A Great Builder may only be selected if you have started the Order policy tree."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_ENGINEER"/>
+			<Set Text="Builder"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_ENGINEER_SLOTS"/>
+			<Set Text="Builder Slots:"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_ENGINEER_TITLE"/>
+			<Set Text="Great Builder Slots:"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_GREAT_ENGINEER"/>
+			<Set Text="Great Builder"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Order[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Order will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Adopting all Policies in the Order tree will grant +2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE]May purchase Great Builders with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Autocracy.[ENDCOLOR]"/>
+		</Update>
+		
+		<!--General to Commander-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_GENERAL"/>
+			<Set Text="Great Commander"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I"/>
+			<Set Text="Great Commanders I"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II"/>
+			<Set Text="Great Commanders II"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I_HELP"/>
+			<Set Text="Combat Likely To Create Great Commanders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP"/>
+			<Set Text="Combat Very Likely To Create Great Commanders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_EUPANEL_GG_STACKED"/>
+			<Set Text="Stacked with Great Commander"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_EUPANEL_IGG"/>
+			<Set Text="Ignores Great Commander"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MO_GENERAL_TT"/>
+			<Set Text="{1_current}/{2_needed}[NEWLINE]Progress towards the next Great Commander is based on the XP earned by land units in combat."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_GREAT_ARTIST_STOLE_PLOT"/>
+			<Set Text="{1_CivName:textkey} used a Great General to steal some of your land!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FASCISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced by the empire increased by 100%. All Great Commanders receive +2 [ICON_MOVES] Movement."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT"/>
+			<Set Text="A Citadel is a mighty fortification that can only be constructed by a Great Commander, usually near a city or on a particularly defensible piece of terrain. Such structures were almost impossible to take by direct attack, and they were capable of withstanding protracted sieges before they fell. You can construct a Citadel anywhere within your territory, or directly adjacent to your territory. Upon constructing the Citadel, your Culture borders will also expand to surround the Citadel on all sides by one hex. If the new Culture border claims hexes already owned by another civilization, you will incur a diplomatic penalty as a result. Any unit stationed within a Citadel receives a 100% defensive strength bonus. Additionally, any enemy unit which ends its turn next to a Citadel takes 30 damage (damage does not stack with other Citadels)."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY"/>
+			<Set Text="Great Commanders are Great People skilled in the art of warfare. They provide combat bonuses - offensive and defensive bonuses both - to any friendly land units within two tiles of their location. A Great Commander itself is a non-combat unit, so it may be stacked with a combat unit for protection. If an enemy unit ever enters the tile containing a Great Commander, the Commander is destroyed.[NEWLINE][NEWLINE]A Great Commander gives a combat bonus of 15% to units stacked with the Commander and all friendly land units within 2 tiles of the Commander.[NEWLINE][NEWLINE]Great Commanders are created when your units have been in battle and also can be acquired when you unlock the Warrior Code social policy. See the section on Great People for more details."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_SPECIALTERRAIN_MOUNTAINS_TEXT"/>
+			<Set Text="Mountains are impassable, except to dragons. They provide nothing to cities."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY"/>
+			<Set Text="The Great Commander can construct the special Citadel improvement which gives a big defensive bonus to any unit occupying it, damages enemy units moving adjacent, and puts all adjacent tiles into your territory. The Great Commander is consumed when it builds the Citadel. The Great Commander provides a 15% combat bonus to all player-owned land units within 2 tiles. The Great Commander is NOT consumed when he provides this bonus."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_HELP"/>
+			<Set Text="Great Commander moves at rate of this unit if they start the turn stacked."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_GENERAL_STACKING_HELP"/>
+			<Set Text="15% combat bonus with Great Commander in same tile."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL"/>
+			<Set Text="Transfer Movement to Commander"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_GENERAL_STACKING"/>
+			<Set Text="Great Commander Combat Bonus"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_FAST_GENERAL"/>
+			<Set Text="Mobile Commander"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_COMBATBONUS_HEADING4_BODY"/>
+			<Set Text="A Great Commander provides a 15% combat bonus to all friendly land units within 2 tiles. This combat bonus applies to all forms of land combat: melee, ranged, defense, and so forth."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when training Melee units and a Great Commander appears outside the [ICON_CAPITAL] Capital."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GREATGENERALS_HEADING"/>
+			<Set Text="Great Commanders"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GREATGENERALS_TEXT"/>
+			<Set Text="Great Commanders are the supreme warriors of civilization. They create the weapons and train the soldiers. They plan the strategies to protect a civilization from its enemies, creating bold offensives, strong fortifications and cunning traps. They lead the charge into battle, carrying the fate of the people on their broad shoulders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_COMBAT_GREATGENERALS_HEADING2_TITLE"/>
+			<Set Text="Great Commanders"/>
+		</Update>
+		<!--<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATGENERAL_HEADING3_BODY"/>
+			<Set Text="The Great Commander is somewhat different from other Great People. Instead of being generated in cities by specialists, Great Commanders are generated by combat. Whenever one of your military units gets XPs, your civilization generates Great Commander points (except when fighting against wildlings). When you have enough points, you earn a Great Commander. At that point the amount you need for the next Great Commander rises."/>
+		</Update>-->
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATGENERAL_HEADING3_BODY"/>
+			<Set Text="The Great Commander is somewhat different from other Great People. Instead of being generated in cities by specialists, Great Commanders are generated by combat. Whenever one of your military units gets XPs, your civilization generates Great Commander points (except when fighting against Marauders). When you have enough points, you earn a Great Commander. At that point the amount you need for the next Great Commander rises."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATGENERAL_HEADING3_TITLE"/>
+			<Set Text="Great Commander"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PEDIA_PROMOTION_SPAWN_GENERALS_I"/>
+			<Set Text="Great Commanders I"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PEDIA_PROMOTION_SPAWN_GENERALS_II"/>
+			<Set Text="Great Commanders II"/>
+		</Update>
+		
+		<!--Scientist to Maester-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_SCIENTIST"/>
+			<Set Text="Great Maester"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY"/>
+			<Set Text="The Great Maester can construct the special Academy improvement which, when worked, produces lots of [ICON_RESEARCH] Science. Further, the Great Maester lets you immediately gain a large amount of science based on the science output of your civilization. The Great Maester is expended when used in either of these ways."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_GREATSCIENTIST_HEADING4_BODY"/>
+			<Set Text="A Great Maester can give you a considerable boost towards your next tech, or the unit can be expended to construct an Academy improvement, which provides beakers per turn when the tile is worked. See the section on Great People for more details."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_LEARNNEWTECH_HEADING4_BODY"/>
+			<Set Text="You can expend your Great Maester to immediately gain a lump sum of science equal to the average science output of your civilization for the previous eight turns."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_GREAT_SCIENTIST"/>
+			<Set Text="Great Maester"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_SCIENTIST"/>
+			<Set Text="Maester"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_SCIENTIST_SLOTS"/>
+			<Set Text="Maester Slots:"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_SCIENTIST_TITLE"/>
+			<Set Text="Great Maester Points:"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS"/>
+			<Set Text="{1_MinorCivName:textkey} is amazed by your swift technological advancements!  Their maesters and intellectuals dismiss other civilizations as stagnant, and your [ICON_INFLUENCE] Influence over them has increased by [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR].  Civilizations that succeeded (ties are allowed):[NEWLINE]"/>
+		</Update>
+		<!--<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism will grant +15% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant 2 free Technologies.[NEWLINE][NEWLINE]May purchase Great Maesters with [ICON_PEACE] Faith.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Piety.[ENDCOLOR]"/>
+		</Update>-->
+		<Update>
+			<Where Tag="TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_BODY"/>
+			<Set Text="Specialists provide the following benefits:[NEWLINE][NEWLINE]Singers increase cultural output in a city and speed the creation of Great Singers.[NEWLINE][NEWLINE]Merchants increase gold output in a city and speed the creation of Great Merchants.[NEWLINE][NEWLINE]Maesters increase science output in a city and speed the creation of Great Maesters.[NEWLINE][NEWLINE]Builders increase production output in a city and speed the creation of Great Builders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_OBSERVATORY_TEXT"/>
+			<Set Text="An observatory is a building dedicated to the study of the sky."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GREATSCIENTISTS_HEADING"/>
+			<Set Text="Great Maesters"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_GREATSCIENTISTS_TEXT"/>
+			<Set Text="The perceived master of any area of study is given a mask, ring or rod and the title Great Maester in the corresponding metal to signify his expertise. For example, a Great Maester who specializes in ravenry will have a mask, ring or rod made of black iron. Great Maesters are the senior members of the Order and are given the right to sit on the Conclave. The Conclave is the governing body of the Citadel and is the same body that elects the Grand Maester. All the meetings of the Conclave are confidential in nature and conducted behind closed doors at the Citadel only."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALIST_SCIENTIST_STRATEGY"/>
+			<Set Text="Create Maesters to increase [ICON_RESEARCH] Science output in a city and to speed the creation of Great Maesters."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_ACADEMY_HEADING4_BODY"/>
+			<Set Text="You can expend a Great Maester to create an Academy. While worked, the Academy will give your city a big science boost."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_BODY"/>
+			<Set Text="A Great Maester is one talented maester."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_TITLE"/>
+			<Set Text="Great Maester"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_SCIENTIST_HEADING3_BODY"/>
+			<Set Text="A maester specialist generates science (beakers) and generates points toward a Great Maester. Maesters are assigned to science-related buildings like Universities."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_SCIENTIST_HEADING3_TITLE"/>
+			<Set Text="Maester"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIALISTSANDGP_SPECIALISTS_HEADING2_BODY"/>
+			<Set Text="When a city is first created, all of its citizens (population) will work the tiles around the city, generating food, production, gold, etc. Later on, you can construct certain buildings which allow you to reassign some of the citizens to work in the building as specialists.[NEWLINE][NEWLINE]For example, the University has 2 slots for maester specialists. Once you have constructed a University in a city, you can assign 1 or 2 citizens to work in that University as maesters. (Note that not all buildings create specialists; see the Buildings section in the Civilopedia.)[NEWLINE][NEWLINE]There are four different classes of specialists. The type a citizen becomes depends upon the type of building he is assigned to work in."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_BUILDINGS_HEADING4_BODY"/>
+			<Set Text="You can construct a number of buildings which will increase your acquisition of beakers. The Library increases the output of beakers by each citizen by half. The University will do the same and will in addition allow two maester specialists to be assigned (see the section on specialists for more information). See the Building section of the Civilopedia for details on these and other knowledge-producing buildings."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_GREATSCIENTIST_HEADING4_TITLE"/>
+			<Set Text="Great Maester"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_INCREASINGBEAKERS_HEADING3_BODY"/>
+			<Set Text="Here are some common ways you can speed up your research (or your acquisition of technology): discover ancient ruins, enter into research agreements with other civilizations, construct buildings that improve your research output, earn a Great Maester, and develop the maestery branch in the social policy tree."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GP_SCIENTIST_DETAILS"/>
+			<Set Text="[ICON_PLUS] Great Maesters"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GP_SCIENTIST_DETAILS_COLLAPSE"/>
+			<Set Text="[ICON_MINUS] Great Maesters"/>
+		</Update>
+		
+		
+		<!-- Eras to Ages -->
+		
+		<Update>
+			<Where Tag="TXT_KEY_ERA_0"/>
+			<Set Text="Dawn Age"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ERA_1"/>
+			<Set Text="Age of Heroes"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ERA_2"/>
+			<Set Text="Age of Valyria"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ERA_3"/>
+			<Set Text="Seven Kingdoms Age"/>
+		</Update>
+		
+		<!-- /////////////////////City-States to Sovereignties///////////////////////// -->
+
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_OF"/>
+			<Set Text="The Sovereignty of {@1_MinorCivName}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_CITY_STATE_UNIT_SPAWN"/>
+			<Set Text="The Sovereignty of {1_CivName:textkey} has given you a new Unit!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_MET"/>
+			<Set Text="You have met the Sovereignty of {1_CivName:textkey}."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_MEETING"/>
+			<Set Text="You have met the Sovereignty of {1_CivName:textkey}.[NEWLINE][NEWLINE]{2_GiftString}[NEWLINE][NEWLINE]{3_SpeakAgainString}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MET_MINOR_CIV"/>
+			<Set Text="You have met the Sovereignty of {1_CivName:textkey}!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PEDIA_CATEGORY_11_LABEL"/>
+			<Set Text="Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PEDIA_CITY_STATES_PAGE_LABEL"/>
+			<Set Text="Sovereignties Home Page"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MINOR_TRAIT_CULTURED"/>
+			<Set Text="Cultured Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MINOR_TRAIT_MILITARISTIC"/>
+			<Set Text="Militaristic Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MINOR_TRAIT_MARITIME"/>
+			<Set Text="Maritime Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MINOR_TRAIT_MERCANTILE"/>
+			<Set Text="Mercantile Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MINOR_TRAIT_RELIGIOUS"/>
+			<Set Text="Religious Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GAME_CONCEPT_SECTION_16"/>
+			<Set Text="Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PEDIA_CSTATES_HELP_TEXT"/>
+			<Set Text="Sovereignties represent the many smaller civilizations that occupy the world. They cannot build settlers and thus cannot create new cities (their territory can expand, however, but it will never contain more than one city). The exception to this is through conquest. Sovereignties at war are capable of capturing enemy cities.[NEWLINE][NEWLINE]If you befriend a Sovereignty, it may provide you with food, culture, or even military units. If you attack a Sovereignty, you may capture a new city to add to your mighty empire. (This might cause the other sovereignties to declare war on you, so do so with care.)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_HEADING1_TITLE"/>
+			<Set Text="Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_DO_CITY_STATES"/>
+			<Set Text="Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROCESSING_MINOR_CIVS"/>
+			<Set Text="Processing Turn For Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PHILANTHROPY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Philanthropy[ENDCOLOR][NEWLINE][ICON_GOLD] Gold gifts to Sovereignties produce 25% more [ICON_INFLUENCE] Influence."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_AESTHETICS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR][NEWLINE]Minimum [ICON_INFLUENCE] Influence level with all Sovereignties is 20."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of Sovereignty friendship.[NEWLINE][NEWLINE][ICON_INFLUENCE] Influence with Sovereignties degrades 25% slower than normal.[NEWLINE][NEWLINE]Adopting all policies in the Patronage tree will make [ICON_INFLUENCE] Influence with Sovereignties decrease 33% more per turn than usual for other players."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE]All Sovereignties which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Cultural Diplomacy[ENDCOLOR][NEWLINE]Quantity of Resources gifted by Sovereignties increased by 100%. [ICON_HAPPINESS_1] Happiness from gifted Luxuries increased by 50%."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_EDUCATED_ELITE_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Educated Elite[ENDCOLOR][NEWLINE]Allied Sovereignties will occasionally gift you [ICON_GREAT_PEOPLE] Great People."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]United Front[ENDCOLOR][NEWLINE]Militaristic Sovereignties grant units twice as often when you are at war with a common foe."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_INFLUENCELEVELS_HEADING3_BODY"/>
+			<Set Text="There are four influence levels with sovereignties: war, neutral, friends, and allies."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES"/>
+			<Set Text="{1_CivName:textkey} has negotiated peace with Sovereignties:[NEWLINE]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATES_FORMAT"/>
+			<Set Text="Sovereignties: {1_number}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_AD_SETUP_CITY_STATES"/>
+			<Set Text="Sovereignties: {1_number}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WORLD_DUEL_HELP"/>
+			<Set Text="2 players with 4 Sovereignties."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WORLD_TINY_HELP"/>
+			<Set Text="4 players with 8 Sovereignties."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WORLD_SMALL_HELP"/>
+			<Set Text="6 players with 12 Sovereignties."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WORLD_STANDARD_HELP"/>
+			<Set Text="8 players with 16 Sovereignties."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WORLD_LARGE_HELP"/>
+			<Set Text="10 players with 20 Sovereignties."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WORLD_HUGE_HELP"/>
+			<Set Text="12 players with 24 Sovereignties."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_ALLY_TT"/>
+			<Set Text="{1_CivName:textkey} is their current Ally.  You need another {2_NumInfluence} [ICON_INFLUENCE] Influence to surpass {1CivName:textkey} and become their Ally.[NEWLINE][NEWLINE]If a player becomes the Ally of a Sovereignty, they receive extra bonuses relating to the trait of that Sovereignty, and they will also receive any luxury and strategic Resources the Sovereignty has connected."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_ALLY_ACTIVE_PLAYER_TT"/>
+			<Set Text="You are their current Ally. You are receiving extra bonuses, as well as any luxury or strategic Resources the Sovereignty has connected."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_ALLY_UNKNOWN_TT"/>
+			<Set Text="An unmet player is their current Ally.  You need another {1_NumInfluence} [ICON_INFLUENCE] Influence to surpass the unmet player and become their Ally.[NEWLINE][NEWLINE]If a player becomes the Ally of a Sovereignty, they receive extra bonuses relating to the trait of that Sovereignty, and they will also receive any luxury and strategic Resources the Sovereignty has connected."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_TT"/>
+			<Set Text="Nobody is currently their Ally.  You need another {1_NumInfluence} [ICON_INFLUENCE] Influence to become their Ally.[NEWLINE][NEWLINE]If a player becomes the Ally of a Sovereignty, they receive extra bonuses relating to the trait of that Sovereignty, and they will also receive any luxury and strategic Resources the Sovereignty has connected."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE"/>
+			<Set Text="We would like you to push around our rival Sovereignties, to keep them in line."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_QUEST_NONE_FORMAL"/>
+			<Set Text="There are currently no quests this Sovereignty has given to you.  They will periodically give quests to you, but may refrain if you have bullied them recently."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_MERCANTILE_TT"/>
+			<Set Text="A befriended [COLOR_POSITIVE_TEXT]Mercantile[ENDCOLOR] Sovereignty will provide extra [ICON_HAPPINESS_1] Happiness in your empire, and manufactures special luxury resources which cannot be acquired any other way."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_RELIGIOUS_TT"/>
+			<Set Text="A befriended [COLOR_POSITIVE_TEXT]Religious[ENDCOLOR] Sovereignty will increase your [ICON_PEACE] Faith, allowing you to empower your religion with new beliefs and units."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT"/>
+			<Set Text="A befriended [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] Sovereignty will provide you occasional gifts of advanced military units.[NEWLINE][NEWLINE]They know the secrets of the [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR].  If you are their Ally and have researched {@2_PrereqTech}, they will provide that unit as their gift."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT"/>
+			<Set Text="A befriended [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] Sovereignty will provide you occasional gifts of advanced military units."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_BROKEN"/>
+			<Set Text="[COLOR_NEGATIVE_TEXT]You made a promise to stop demanding tribute from a Sovereignty protected by them, and then broke it![ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_IGNORED"/>
+			<Set Text="[COLOR_NEGATIVE_TEXT]They asked you to stop demanding tribute from a Sovereignty protected by them, and you ignored them![ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_BULLIED"/>
+			<Set Text="[COLOR_NEGATIVE_TEXT]You have demanded tribute from Sovereignties under their protection![ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_DIPLO_SIDED_WITH_MINOR"/>
+			<Set Text="[COLOR_NEGATIVE_TEXT]They mistreated your protected Sovereignties, and you did not look the other way![ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_QUEST_GIVEN_CONDENSED"/>
+			<Set Text="New Sovereignty Quests are available.  If you complete a Quest, you will gain [ICON_INFLUENCE] Influence with that Sovereignty.  (To see all Quests at a glance, look at the Sovereignties section of the Diplomacy menu.)[NEWLINE][NEWLINE]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVEN_CONDENSED"/>
+			<Set Text="New Sovereignty Quests"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE"/>
+			<Set Text="As a [COLOR_POSITIVE_TEXT]Mercantile[ENDCOLOR] Sovereignty, their markets offer exotic goods to your people! (+{1_NumHappiness} [ICON_HAPPINESS_1] Happiness)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_RELIGIOUS"/>
+			<Set Text="As a [COLOR_POSITIVE_TEXT]Religious[ENDCOLOR] Sovereignty, they share their knowledge of rituals with you! (+{1_NumFaith} [ICON_PEACE] Faith per turn)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE"/>
+			<Set Text="As a [COLOR_POSITIVE_TEXT]Mercantile[ENDCOLOR] Sovereignty, their markets spread trade of exotic goods across your empire! (+{1_NumHappiness} [ICON_HAPPINESS_1] Happiness)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_RELIGIOUS"/>
+			<Set Text="As a [COLOR_POSITIVE_TEXT]Religious[ENDCOLOR] Sovereignty, they give you their most treasured religious relics! (+{1_NumFaith} [ICON_PEACE] Faith per turn)"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC"/>
+			<Set Text="As a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] Sovereignty, they will regularly give you military Units. Sometimes they will give you Unique Units that you normally would not have access to."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY"/>
+			<Set Text="Sovereignties grow wary"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY_TT"/>
+			<Set Text="Your aggression against your weaker neighbors has not gone unnoticed.  The resting point for [ICON_INFLUENCE] Influence has decreased by [COLOR_NEGATIVE_TEXT]{1_InfluenceMinimum}[ENDCOLOR] for these Sovereignties, making it more costly to maintain friendship:[NEWLINE]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_GIFT_TILE_IMPROVEMENT_TT"/>
+			<Set Text="If you are allies with this Sovereignty, you can pay [ICON_GOLD] Gold to improve one of its Strategic or Luxury resources, giving you access to it."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_BULLY_TT"/>
+			<Set Text="Sovereignties can provide [ICON_GOLD] Gold and Units, but taking these by force will decrease your [ICON_INFLUENCE] Influence over them."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_BULLY_GOLD_TT"/>
+			<Set Text="You can intimidate this Sovereignty with your military might for [ICON_GOLD] Gold, but will lose [ICON_INFLUENCE] Influence.  The Sovereignty will give in if: [NEWLINE][ICON_BULLET]You have a strong military compared to other civilizations.[NEWLINE][ICON_BULLET]Your military presence near the Sovereignty is strong."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT"/>
+			<Set Text="You can intimidate this Sovereignty for a {1_Unit:textkey}, but will lose a lot of [ICON_INFLUENCE] Influence.  The Sovereignty will give in if: [NEWLINE][ICON_BULLET]The Sovereignty has at least {2_PopLimit} [ICON_CITIZEN] Population.[NEWLINE][ICON_BULLET]You have a strong military compared to other civilizations.[NEWLINE][ICON_BULLET]Your military presence near the Sovereignty is strong."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_PLEDGE_TT"/>
+			<Set Text="Pledging to protect a Sovereignty lets the other major powers in the game know that you will protect the Sovereignty from attacks and tribute demands. This may deter players who do not want to risk a conflict with you, but the Sovereignty will expect you to take its side when it is attacked or bullied.[NEWLINE][NEWLINE]During protection, your resting point for [ICON_INFLUENCE] Influence with this Sovereignty is increased by {1_InfluenceMinimum}.  Protection cannot be revoked until {2_TurnsMinimum} turns after the pledge is made."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT"/>
+			<Set Text="[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Because you did not honor your previous pledge, this Sovereignty does not trust you.  {1_TurnsUntilPledgeAvailable} turns must pass before you can pledge again.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_TT"/>
+			<Set Text="You can cancel your pledge to protect this Sovereignty.  Other major powers will be aware of this, and may change their actions towards this Sovereignty as a result."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_BUYOUT_TT"/>
+			<Set Text="You may spend {1_BuyoutCost} [ICON_GOLD] Gold to acquire this Sovereignty through diplomatic marriage, making it and all of its units part of your empire.  This will not incur the diplomatic penalties or the Unhappiness penalties of conquering the Sovereignty.  The bonuses you receive from friendship with this Sovereignty, however, will be lost."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_TT"/>
+			<Set Text="You may spend {2_BuyoutCost} [ICON_GOLD] Gold to acquire this Sovereignty through diplomatic marriage, making it and all of its units part of your empire.  This will not incur the diplomatic penalties or the Unhappiness penalties of conquering the Sovereignty.  The bonuses you receive from friendship with this Sovereignty, however, will be lost.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied for {1_NumTurns} turns and have {2_BuyoutCost} [ICON_GOLD] Gold to acquire this Sovereignty.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_ALLY_TT"/>
+			<Set Text="You may spend {3_BuyoutCost} [ICON_GOLD] Gold to acquire this Sovereignty through diplomatic marriage, making it and all of its units part of your empire.  This will not incur the diplomatic penalties or the Unhappiness penalties of conquering the Sovereignty.  The bonuses you receive from friendship with this Sovereignty, however, will be lost.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied for {1_NumTurns} turns ({2_TurnsAllied} turns so far) and have {3_BuyoutCost} [ICON_GOLD] Gold to acquire this Sovereignty.[ENDCOLOR]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT_HELP"/>
+			<Set Text="Build a Tile Improvement on this tile for this Sovereignty, giving it access to the resource."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_STATE_RESOURCES_TT"/>
+			<Set Text="If a player becomes the [COLOR_POSITIVE_TEXT]Ally[ENDCOLOR] of this Sovereignty, these are the nearby Resources which the player will receive once the Sovereignty has connected them."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU"/>
+			<Set Text="[COLOR_NEGATIVE_TEXT]The Sovereignty allies of {1_CivName:textkey} have declared war on you![ENDCOLOR][NEWLINE]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU_SUMMARY"/>
+			<Set Text="Sovereignties declare war on you!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR"/>
+			<Set Text="Your Sovereignty allies have declared war on {1_CivName:textkey}:[NEWLINE]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR_SUMMARY"/>
+			<Set Text="Your Sovereignty allies declare war!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES_SUMMARY"/>
+			<Set Text="{1_CivName:textkey} makes peace with Sovereignties"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE"/>
+			<Set Text="Your Sovereignty allies have made peace with {1_CivName:textkey}:[NEWLINE]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE_SUMMARY"/>
+			<Set Text="Your Sovereignty allies make peace"/>
+		</Update>
+
+		<!-- Kill Incongruous Description, Policy and Tech Language -->
+
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REFORMATION_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR][NEWLINE]The empire immediately enters a [ICON_GOLDEN_AGE] Golden Age."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CONSTITUTION_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Constitution[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture from each Garden."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_HUMANISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every University and Observatory."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_THEOLOGY_HELP"/>
+			<Set Text="Allows you to build a specialized building which improves your ability to create new [ICON_GREAT_PEOPLE] Great People."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_COMPASS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Dromond[ENDCOLOR], a ranged naval unit that is the first capable of exploring the world's oceans. Also allows you to build the [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR], which creates trade routes from cities to the capital over the water, producing [ICON_GOLD] Gold. Additionally, the [ICON_GOLD] Gold yield from Fishing Boats is increased. Also allows embarked land units to cross ocean tiles."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_ARCHER"/>
+			<Set Text="Powerful Dawn Age ranged Unit that can strike foes from afar."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_TRIREME"/>
+			<Set Text="Dawn Age Naval Unit used to wrest control of the seas."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SPEARMAN"/>
+			<Set Text="Dawn Age Unit which specializes in defeating Mounted Units."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_COMPOSITE_BOWMAN"/>
+			<Set Text="Age of Heroes ranged infantry Unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SWORDSMAN"/>
+			<Set Text="Strong, front-line land Unit of the Age of Heroes."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_KNIGHT"/>
+			<Set Text="Powerful Age of Valyria Mounted Unit, weak to Pikemen."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CROSSBOWMAN"/>
+			<Set Text="Age of Valyria ranged infantry Unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_TREBUCHET"/>
+			<Set Text="Powerful Age of Valyria Siege Unit, good at reducing the defenses of enemy Cities. Must set up prior to firing."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_LONGSWORDSMAN"/>
+			<Set Text="Powerful Age of Valyria infantry Unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Trade Unions[ENDCOLOR][NEWLINE][ICON_GOLD] Maintenance paid on Roads reduced by 33%. Harbors gain +1 [ICON_GOLD] Gold."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_WONDER"/>
+			<Set Text="The cultural elite of {@2_CivName} yearn for something to dazzle them. They believe if {@1_WonderName} is built it will lead to great enlightenment. Too bad there are no Wonders in this mod."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_THE_WHEEL_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Horse Archer[ENDCOLOR], a fast and powerful ranged unit which requires [ICON_RES_HORSE] Horses, and the [COLOR_POSITIVE_TEXT]Water Mill[ENDCOLOR], which gives your city a [ICON_FOOD] Food and [ICON_PRODUCTION] Production boost if it's next to a river. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Roads[ENDCOLOR], which allow units to move across the map faster and provide extra [ICON_GOLD] Gold when connecting cities to your capital."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ASTRONOMY_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Longship[ENDCOLOR] and the [COLOR_POSITIVE_TEXT]Observatory[ENDCOLOR], which provides a significant [ICON_RESEARCH] Science boost."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP"/>
+			<Set Text="+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital."/>
+		</Update>
+		
+		<!-- ////////Advisor Name Changes///// -->
+		<!-- Science Advisor to Grand Maester -->
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_SCIENCE_TITLE"/>
+			<Set Text="Grand Maester"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISORS_SCIENCE_HEADING3_BODY"/>
+			<Set Text="The Grand Maester gives you advice on science and technology, as well as information on game rules."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_TUTORIAL_1_INTRO_MOVEMENT_AND_EXPLORATION_BODY"/>
+			<Set Text="I am your Grand Maester. In this lesson I'll teach you how to move your units around the map. In the process you'll discover ancient ruins and whole new continents!"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_SCIENCE"/>
+			<Set Text="Your Grand Maester recommends building this here."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_SCIENCE"/>
+			<Set Text="Your Grand Maester recommends researching this technology."/>
+		</Update>
+		<!-- Economic Advisor to Master of Coin -->
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_ECON_TITLE"/>
+			<Set Text="Master of Coin"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISORS_ECONOMIC_ADV_QUEST"/>
+			<Set Text="Why is the Master of Coin so great?"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISORS_ECONOMIC_HEADING3_BODY"/>
+			<Set Text="The Master of Coin provides advice on building and improving your cities and territory."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_TUTORIAL_2_INTRO_FOUND_CITIES_BODY"/>
+			<Set Text="I am your Master of Coin. In this lesson I'll teach you how cities work, how to found new cities, and where the best places are to build them."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_TUTORIAL_3_INTRO_IMPROVING_CITIES_WITH_WORKERS_BODY"/>
+			<Set Text="I am your Master of Coin. In this lesson I'll teach you how to use Workers to enhance your cities. Under your command your Workers will build trade routes to collect [ICON_GOLD]gold, construct improvements to help your cities grow faster and build things quicker, and improve resources to make our people happier."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_ECONOMIC"/>
+			<Set Text="Your Master of Coin recommends building this here."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_ECONOMIC"/>
+			<Set Text="Your Master of Coin recommends researching this technology."/>
+		</Update>
+		<!-- Foreign Advisor to Master of Whisperers -->
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_FOREIGN_TITLE"/>
+			<Set Text="Master of Whisperers"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISORS_FOREIGN_ADV_QUEST"/>
+			<Set Text="The Master of Whisperers is one pretty girl, but how can she help me?"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISORS_FOREIGN_HEADING3_BODY"/>
+			<Set Text="The Master of Whisperers advises you on exploration and your relations with city-states, and other civilizations."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_TUTORIAL_5_INTRO_DIPLOMACY_BODY"/>
+			<Set Text="I'm your Master of Whisperers. In this lesson you'll learn the basics of diplomacy with other civilizations and city-states. This is a complicated subject, so for now we will concentrate upon two important concepts: developing influence over a city state and trading resources with a neighboring civilization."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_FOREIGN"/>
+			<Set Text="Your Master of Whisperers recommends building this here."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_FOREIGN"/>
+			<Set Text="Your Master of Whisperers recommends researching this technology."/>
+		</Update>
+		<!-- Military Advisor to Lord Commander -->
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_MILITARY_TITLE"/>
+			<Set Text="Lord Commander"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISORS_MILITARY_ADV_QUEST"/>
+			<Set Text="Why is the Lord Commander so totally awesome?"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISORS_MILITARY_HEADING3_BODY"/>
+			<Set Text="The Lord Commander provides advice on combat and all things related to war."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ADVISOR_TUTORIAL_4_INTRO_COMBAT_AND_CONQUERING_BODY"/>
+			<Set Text="I'm your Lord Commander and you can guess why I'm here. In this lesson I'll teach you how to stomp out mauraders and destroy their camps, and how to conquer an enemy civilization's city."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_MILITARY"/>
+			<Set Text="Your Lord Commander recommends building this here."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_MILITARY"/>
+			<Set Text="Your Lord Commander recommends researching this technology."/>
+		</Update>
+		<!-- Titles -->
+		<Update>
+			<Where Tag="TXT_KEY_LIBERTY_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_HONOR_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PIETY_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PATRONAGE_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_COMMERCE_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_RATIONALISM_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_FREEDOM_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_ORDER_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_AUTOCRACY_TITLE"/>
+			<Set Text="{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey} of {2_CivName:textkey}"/>
+		</Update>
+	</Language_en_US>
+</GameData>
